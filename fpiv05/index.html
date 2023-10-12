@@ -1,0 +1,532 @@
+<HTML>
+<HEAD>
+
+<TITLE>Second Workshop on Face Processing in Video</TITLE>
+<!-- link rel="stylesheet" href="http://www.cv.iit.nrc.ca/pics/default.css"-->
+<meta http-equiv="Content-Language" content="en-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+<!-
+a:active { font-weight: bold; text-decoration: underline }
+A:visited { font-weight: bold; color:#993300; text-decoration: none;}
+A:link { font-weight: bold; color:#12522E; text-decoration: none;}
+A:hover { color:#12522E; text-decoration: underline;background-color:#cccccc;}
+A:border { border: 1px solid black; }
+P		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+UL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+OL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+TD		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+DIV		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+PRE		{font-family: Times New Roman Cyr, Times New Roman; font-size: 11pt;};
+BODY		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+INPUT		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TEXTAREA	{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+->
+</style>
+
+
+</head>
+
+<BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4>
+<!--BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4-->
+<CENTER>
+
+
+<TABLE cellPadding=0 width=750 bgColor=#fffff4 noborder border="1">
+  <TBODY>
+  <TR>
+    <TD colSpan=4>
+    
+    
+<!---   header ------>    
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0 bgcolor="#008080">
+        <TBODY>
+        <TR>
+          <TD vAlign=middle align=center width=90 bgColor=#ff8888>
+          <a href="http://www.visioninterface.net/fpiv04/preface.html#logo"><img border="0" src="pics/fpiv-logo.gif" 
+alt="Click here to read  
+  about FPiV logo"></a> </TD>
+          <TD noWrap align=middle bgColor=#ff8888 height="100">
+            <p align="center"><b>
+            FPiV'05 - The Second Workshop on&nbsp;<i><font face="Arial,Helvetica" size="5"><br>
+            </font><font size="6">
+            Face Processing in Video</font></i></b><font face="Arial Black"><font size="6">&nbsp;</font></font><br>
+ May 8-11, 2005, Victoria, British
+            Columbia, Canada <BR><a href="http://www.visioninterface.net/fpiv05">www.visioninterface.net/fpiv05</a></p>
+          </TD>
+          <TD align=middle width=90 bgColor=#ff8888 nowrap>
+            <p align="center"><a href="http://www.cipprs.org"><img border="0" src="pics/cipprs2.gif" width="79" height="78"></a><a href="http://iit-iti.nrc-cnrc.gc.ca/r-d/cv-vi_e.html"><img  src="pics/NRC-CNRC.gif" border="0" width="82" height="16"></a></p>
+ </TD></TR>
+             
+        <!-- TR>
+          <TD bgColor=#ff8888 colSpan=3>
+            <p align="right"><font face="Times New Roman" size="6"><i><b>FPIV
+            2004</b></i>&nbsp;</font></TD></TR-->
+            </TBODY>
+            </TABLE>
+            </TD>
+            </TR>
+ 
+   <TR>
+    <td align=center width="25%" bgColor=#ff8888 height="25" nowrap><font size="1"><b><a href="index.html">main
+      page</a></b></font> </td>
+    <TD noWrap align=center width="25%" bgColor=#ff8888><font size="1"><b><a href="#registration">registration</a>
+      | <a href="http://www.cs.ubc.ca/~ksbooth/ai-gi-crv/local.html">local info</a></b></font> 
+ </TD>   
+    <TD noWrap align=center width="25%" bgColor=#ff8888><font size="1"><b><a href="program.html">workshop
+      papers&nbsp;</a></b></font> 
+    </TD>
+<TD noWrap align=center width="25%" bgColor=#ff8888> <b><a href="http://www.iro.umontreal.ca/~ai05/">AI</a>/<a href="http://www.cs.ubc.ca/~van/GI2005/GI2005main.htm">GI</a>/<a href="http://www.computerrobotvision.org/">CRV</a>'05</b> </TD>
+      </TR>
+      
+ <!-- End of header ----> 
+      
+  <TR>
+    <TD colSpan=4> 
+        <center><br>
+    In conjunction with<br>
+       Canadian conferences on Artificial Intelligence /
+            Graphics Interface / Computer &amp; Robot Vision (<b><a href="http://www.iro.umontreal.ca/~ai05/">AI</a>/<a href="http://www.cs.ubc.ca/~van/GI2005/GI2005main.htm">GI</a>/<a href="http://www.computerrobotvision.org/">CRV</a>'2005)</b><br>
+
+         <!--
+                &nbsp;
+
+        <table borderColor="#000000" cellSpacing="2" cellPadding="7" width="89%" bgColor="#ff9999" border="1">
+          <tbody>
+            <tr>
+              <td width="100%" height="19">
+                <p align="center">Please note that fast approaching deadlines.&nbsp;<br>
+                Only those of accepted papers received by
+                the&nbsp; final deadline will be published in the
+                proceedings.&nbsp;</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+         </center>
+    -->          
+        <hr>
+    <table width="100%" cellpadding="5" cellspacing="0">
+      <tr>
+        <td vAlign="top" noWrap >
+                  
+          <p><font size="1"><b> Program Chairs:&nbsp;<br>
+          <br>
+          </b></font>
+          <a href="http://iit-iti.nrc-cnrc.gc.ca/personnel/gorodnichy_dmitry_f.html"><font size="1">Dmitry
+          O. Gorodnichy</font></a><font size="1">,&nbsp;<br>
+          IIT-ITI, NRC-CNRC, Canada
+          <i><br>
+          <b>Email: </b><a href="mailto:fpiv05@visioninterface.net?SUBJECT=FPIV'05: write your subject here">fpiv05@visioninterface.net<br>
+          </a></i><a href="http://rvl1.ecn.purdue.edu/~aleix/"><br>
+          Aleix M. Martinez</a>,&nbsp;<br>
+          Ohio State University
+          <i><br>
+          <b>Email:&nbsp;<br>
+ </b><a href="mailto:fpiv05.chair@visioninterface.net?SUBJECT=FPIV'05: (write your subject here)">fpiv05.chair@visioninterface.net</a></i></font>
+          </p>
+          <p><font size="1"><b>Program Committee:
+          </b></font></p>
+                  
+        <p><font size="1"><a href="http://www.ri.cmu.edu/people/baker_simon.html">Simon
+        Baker</a>,&nbsp;<br>
+        RI, CMU, USA<br>
+        </font><font size="1"><a href="http://ergo.ucsd.edu/~marni/"><br>
+        Marian S.
+          Barlett</a>,&nbsp;<br>
+          I. of Neural Computation, UCSB, USA</font></p>
+        <p><font size="1"><a href="http://www.cfar.umd.edu/~rama/">Rama
+          Chellappa</a>,&nbsp;<br>
+        UMD, USA<br>
+        <br>
+        <a href="http://mi.eng.cam.ac.uk/~cipolla/">Roberto Cipolla<br>
+        </a>U. of Cambridge, UK</font></p>
+          <p><font size="1"><a href="http://www.ri.cmu.edu/people/gross_ralph.html">Ralph
+          Gross</a>,&nbsp;<br>
+          CMU, USA</font></p>
+          <p><font size="1">
+          <a href="http://ilab.usc.edu/people">Laurent Itti</a>,&nbsp;<br>
+          U. of Southern California, USA<br>
+          <br>
+          <a href="http://www.cse.msu.edu/~jain/">Anil Jain</a>,&nbsp;<br>
+          Michigan State University<br>
+          <a href="http://www.vcl.uh.edu/~ioannisk/"><br>
+          Ioannis A. Kakadiaris&nbsp;</a><br>
+ U. of Houston, USA<br>
+          <a href="http://www.nlpr.ia.ac.cn/users/szli"><br>
+          Stan Z. Li</a>,&nbsp;<br>
+          National Lab of Pattern Recognition, China<br>
+          <br>
+          <a href="http://www.mis.atr.co.jp/~mlyons">Michael J. Lyons</a>,&nbsp;<br>
+          ATR, Japan<br>
+          <br>
+          </font><font size="1"><a href="http://www.itl.nist.gov/iad/894.03/staff/jonathon.html">Jonathon Phillips<br>
+          </a>NIST, USA</font><font size="1"><br>
+          <br>
+          <a href="http://www.cs.ucsb.edu/~mturk/">Matthew Turk</a>,&nbsp;<br>
+          UCSB, USA<br>
+          <br>
+          <a href="http://www.cs.binghamton.edu/~lijun/">Lijun Yin</a>,&nbsp;<br>
+          SUNY at Binghamton, USA</font></p>
+                  
+          <hr>
+                  
+          <p align="left"><b>Contributing partners:</b>
+          <p align="center"><font size="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="http://www.cipprs.org"><img border="0" src="pics/cipprs_logo.gif" width="133" height="141"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+          <p align="center"><font size="1">&nbsp;</font><a href="http://iit-iti.nrc-cnrc.gc.ca/r-d/cv-vi_e.html"><img  src="pics/NRC-CNRC.gif" border="0" align="middle" width="175" height="30"></a></p>
+                 
+        </center>
+                  
+          <hr>
+                  
+        <p align="left"><a href="FPiV-05.pdf"> Call for Papers</a> </p>
+                  
+        <p align="left"><a href="#posters-demos">Call for Posters and Demos</a></p>
+      <p align="left"><b><a href="#registration">Registration information</a></b></p>
+        <p align="left"><b><a href="http://www.cs.ubc.ca/~ksbooth/ai-gi-crv/local.html">Local
+        info: Accommodation &amp; Travel</a></b></p>
+                  
+          <hr>
+                  
+
+
+
+              
+
+
+
+
+
+
+
+       <p align="left">
+
+
+
+  
+
+
+
+        <b>Past workshops:</b>
+
+
+
+        </p>
+
+
+
+   
+
+
+
+
+
+
+
+
+       <p align="left">
+
+
+
+  
+
+
+
+        <b><a href="http://visioninterface.net/fpiv04/papers.html">FPiV'04 (jointly with CVPR'04)</a><br>
+        <br>
+        Joint conferences:</b>
+
+
+
+        </p>
+
+
+
+   
+
+
+
+        <p align="left"><b><a href="http://www.iro.umontreal.ca/~ai05/">AI 2005</a>,
+        <a href="http://www.cs.ubc.ca/~van/GI2005/GI2005main.htm">GI 2005,
+        </a><a href="http://www.visioninterface.net/crv05">CRV 2005</a></b>
+
+
+
+        </p>
+
+
+
+   
+
+
+
+
+
+
+
+
+       <p align="left">
+
+
+
+  
+
+
+
+        <b>Related upcoming events:</b>
+
+
+
+        </p>
+
+
+
+   
+
+
+
+      <font size="1"><p align="left"><font SIZE="2"><a href="http://www.koshi-lab.sccs.chukyo-u.ac.jp/QCAV2005/">QCAV 2005</a></font></font><font size="2">:<font size="1"><br>
+      Nagoya</font>, Japan - May 18-20, 2005.</font>
+
+
+
+        </p>
+
+
+
+          <hr>
+                  
+
+
+
+              
+
+
+
+
+
+
+
+        <p align="left"><img alt="Typical Totem Pole" src="http://www.computerrobotvision.org/totem7.jpg" width="180" height="265">
+        &nbsp;
+
+
+
+        </p>
+
+
+
+        <p align="left"><img alt="Inner Harbour Causeway" src="http://www.computerrobotvision.org/causway2.jpg" width="180" height="265">
+
+
+
+        </p>
+
+
+
+
+</td>
+<td vAlign="top">
+  <p>Following the rapid development of the video-based technologies and the success of the
+  <a href="http://www.visioninterface.net/fpiv04/papers.html"> First Workshop on Face Processing in Video (FPiV'04)</a>
+  which was held in Washington, DC, jointly with CVPR'04, the <a href="http://http://www.visioninterface.net/fpiv05">Second
+  Workshop on  Face Processing in Video&nbsp;(FPiV'05)</a> will be held in 2005 in Victoria, British Columbia,
+  Canada. This time it will be held under the umbrella of&nbsp;<a href="http://www.cipprs.org/CRV/">CRV'05
+  - the Canadian Conference on Computer &amp; Robot Vision</a> (formerly Vision
+  Interface), which is the
+            oldest international conference on Computer Vision and Pattern
+            Recognition annually held in Canada.</p>
+  <p>As many of its predecessors, CRV'05 will be held jointly&nbsp; with <a href="http://cs.uwindsor.ca/~ai04/index.htm">AI'05</a> and <a href="http://www.dgp.toronto.edu/GI2004/">GI'05</a>:
+  (Canadian conferences on Artificial Intelligence / Graphics Interface).&nbsp;The
+  <b>FPiV'05 </b> workshop attendees will have therefore opportunity to attend all three conferences.
+  Conversely, the FPiV'05 Workshop is open to all <a href="http://www.iro.umontreal.ca/~ai05/">AI</a>/<a href="http://www.cs.ubc.ca/~van/GI2005/GI2005main.htm">GI</a>/<a href="http://www.cipprs.org/CRV/">CRV</a>'2005
+                attendees.</p>
+  <p><b>Aims. </b>The goal of the <b>
+            FPiV'05 </b>workshop is to provide a forum for scientists from different backgrounds:
+  biological vision, computer vision, pattern recognition, machine learning, computer-human interaction -
+  to share their experiences and discuss the problems in the area of Face Processing in Video,  and, as a result, to produce a collection of
+  high-quality papers addressing these problems.<br>
+  <br>
+  <b>
+  NB. </b> As in the <a href="http://www.visioninterface.net/fpiv04/preface.html">past</a>,
+  the focus of the workshop is dealing with <i><u>video data</u>, </i>i.e. with data coming from video
+  footage, rather than data coming from photo-cameras or laser scanners.<br>
+  <br>
+  <b>Workshop Layout. </b>The workshop will be held on the last day of the joint
+  conferences and will have a single track consisting of oral presentations. The
+  three days preceding the workshop offer the workshop attendees the opportunity
+  to attend the other conferences and will also feature the reception, banquet
+  and the GI-sponsored electronic theatre.</p>
+  <p><b>Workshop proceedings.&nbsp;</b> The papers
+  accepted for the workshop are published by IEEE Computer Society Press as part of the
+  <a href="http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/proceedings/crv/&amp;toc=comp/proceedings/crv/2005/2319/00/2319toc.xml">
+  CRV'05&nbsp; Proceedings</a>, the hardcopy of which will be distributed at the
+  CRV'05 conference.&nbsp;<!-- - The <a href="http://"> IEEE copyright release form</a> will have to be signed.
+
+
+
+          They may also be put on-line at the <a href="http://www.cipprs.org"> CIPPRS</a> web-site according to the <a href="http://www.ieee.org/portal/index.jsp?pageID=corp_level1&amp;path=about/documentation/copyright&amp;file=policies.xml&amp;xsl=generic.xsl">IEEE
+
+
+
+          copyright policy</a> on collected works. -->The proceedings are also automatically archived into the IEEE Computer Society's digital library and
+  the IEEE's XPlore and IEL digital libraries and&nbsp; indexed through the
+  INSPEC indexing service. See <a href="program.html">workshop papers&nbsp;</a>link.
+  </p>
+  <h4 align="center"><b><br>
+  Paper submission</b></h4>
+  <p> Any paper analyzing <b><i><u><a href="http://www.visioninterface.net/fpiv04/preface.html"> video</a></u></i></b>
+  for the presence of information
+  about faces is welcomed for submission. However , the preference will be given
+  to those papers which clearly indicate in the abstract a) what is a
+  challenging problem the paper addresses and b) what the paper contributions
+  are. Application-oriented papers are as much welcome as theoretical papers.&nbsp;<b><br>
+  <br>
+  The suggested research areas</b> are listed below (from theory-driven to
+  application-driven), but other topics dealing with the face in video scenario
+  are welcome.</p>
+        </center>
+        <blockquote>
+  <p align="left"><font size="1"><i>neurobiological and neuro-computational approaches to visual&nbsp;
+    perception<br>
+    synergy between biological and computer vision<br>
+    face segmentation and detection in video<br>
+    face tracking and multiple faces tracking<br>
+    face memorization, classification recognition from video<br>
+    face biometrics and face modeling, 3d face models<br>
+    facial features for tracking and recognition<br>
+    face representation, canonical face models, face in video databases&nbsp;<br>
+    face synthesis, mimicking&nbsp;and animation&nbsp;<br>
+    facial expression recognition and classification, and representation<br>
+    fusing different modalities of video information (motion, colour, intensity)<br>
+    performance evaluation for face in video problems<br>
+    face detection/tracking/recognition in multi-camera setups &amp; stereo<br>
+    face detection/tracking/recognition in panoramic video<br>
+    combining video and audio for speaker face detection/recognition<br>
+    face-based multi-media, games, and computer-human interaction&nbsp;<br>
+    perceptual face-controlled interfaces<br>
+    face processing for video-conferencing<br>
+    face processing for computer-generated communication programs<br>
+    face processing for immersive and collaborative environments<br>
+    face processing for industry for disabled&nbsp;<br>
+    face processing for augmented and virtualized reality<br>
+    face processing for security and surveillance&nbsp;<br>
+    face processing for encoding and annotating video&nbsp;</i></font></p>
+        </blockquote>
+        <p><b>Size. </b>Papers should be <u>full size</u> and complete, eight
+        double-column pages maximum (additional pages at $250 per page). They
+        should not include any information that would indicate the author’s
+        identity (references to authors’ previous work should be left blank).&nbsp;&nbsp;</p>
+        <p>Papers should be&nbsp; formatted using the IEEE&nbsp;paper submission
+        guidelines described in <a href="http://cvl.umiacs.umd.edu/conferences/cvpr2004/authorInst.htm">the
+        Author Instructions</a> page.&nbsp;<b>Formatting Templates </b>for latex
+        and Word are also available here: <a href="http://www.cipprs.org/CRV/crv05-template.tex">LaTeX</a>,
+        <a href="http://www.cipprs.org/CRV/crv05-word.doc">Word</a>.</p>
+        <p><b>How to submit.</b>&nbsp; Submission of papers is done by emailing
+        them as <u>PDF files</u> to the Program Chairs at the email address
+        given above.&nbsp;</p>
+        <p><b>Reviewing Process.&nbsp;</b> <font face="Verdana">Reviewing is
+        blind. Each paper will be reviewed by at least three Program Committee
+        members. The goal is to have as vigorous and fair reviewing of all
+        papers as possible.</font></p>
+        <h4>
+<CENTER>
+
+
+<b><br>
+Poster and demo submission</b></h4>
+        </center>
+  <p align="left"><b>Layout: </b>
+  FPiV'05 Posters and Demos will not be published in the
+  Proceedings. They
+  will have however the same exposure to the attendees of the joint <b><a href="http://www.iro.umontreal.ca/~ai05/">AI</a>/<a href="http://www.cs.ubc.ca/~van/GI2005/GI2005main.htm">GI</a>/<a href="http://www.computerrobotvision.org/">CRV</a>
+  </b>conferences as <a href="http://www.cs.ubc.ca/~van/GI2005/GI2005posters.htm">GI
+  posters</a> and <a href="http://www.computerrobotvision.org/">CRV posters </a>and
+  will be listed both on the FPiV'05 website and&nbsp; in the joint
+  conferences programs.&nbsp;&nbsp;They will be presented in a separate
+  multi-hour&nbsp; plenary interactive&nbsp; session, thus without competing with the oral presentations for attendance.</p>
+        <p align="left"><b>How to submit:</b>&nbsp;&nbsp;
+  Email the extended abstract as attachment to Program Chairs with the subject <i>&quot;FPiV'05 poster/demo submission&quot;</i>. <i>
+        </i>The
+  message body should contain the title of the poster/demo and the contact
+  information for the main author.&nbsp;<br>
+  </p>
+ 
+  
+        <blockquote>
+ 
+  
+  <h4 align="center"><font color="#FF0000"><b>Important dates:</b>
+  </font></h4>
+ 
+  
+          <p align="left"><font color="#FF0000">
+  January 30,&nbsp; 2005: Paper Submission&nbsp;<br>
+ February 21, 2005:  Notification of acceptance&nbsp;/ rejection&nbsp;<br>
+  March 4, 2005: Final Papers are submitted to IEEE&nbsp; Publisher.&nbsp;
+  </font>
+  <font SIZE="2"><br>
+          </font><font color="#FF0000">April 23, 2005: Proposals for posters and demos
+  deadline</font><br>
+  <font color="#FF0000">May 8-11, 2005:&nbsp; The CRV/AI/GI conferences are
+  held.<br>
+  May 11, 2005: FPiV'05 workshop is held</font>
+  </p>
+ 
+  
+        </blockquote>
+<CENTER>
+
+
+  <a name="registration"></a>
+  
+  
+  
+        </center>
+  
+  
+  
+  <h4 align="center">
+  <b><br>
+  Registration</b>
+  </h4>
+                <p align="left"><b>Who can attend:</b> Participation in the FPiV'05 workshop without submitting a paper is
+                welcomed.&nbsp; For a single registration fee, the workshop participants will also be able to attend the joint conferences.
+                Conversely, the FPiV'05 Workshop is open to all <a href="http://www.iro.umontreal.ca/~ai05/">AI</a>/<a href="http://www.cs.ubc.ca/~van/GI2005/GI2005main.htm">GI</a>/<a href="http://www.cipprs.org/CRV/">CRV</a>'2005
+                attendees.</p>
+ 
+                <p align="left"><b>Cost and membership: </b>This conference promotes participation of students by
+                significantly reducing the student registration fee. There is
+                also a reduction in registration fees for <a href="http://www.cipprs.org/"> CIPPRS</a> members and
+                IEEE members. CIPPRS welcomes members from all countries.</p>
+ 
+                <p align="left"><b>In order to register for the workshop</b>, you will have to
+                follow the same procedure as to register
+                for the <b><a href="http://www.cipprs.org/CRV/">CRV</a>'2005</b>!
+                -&nbsp;Follow&nbsp; the following address:<br>
+                <br>
+ <a href="http://www.graphicsinterface.org/aigicrv/crv2005/registration">http://www.graphicsinterface.org/aigicrv/crv2005/registration</a>.&nbsp;<br>
+  </p>
+ 
+                <h4 align="center"><b>Venue
+                </b>
+  </h4>
+ 
+  <p align="left">Vancouver island where the city of Victoria is situated, is one of the most spectacular places in Canada, while
+                <a href="http://www.city.victoria.bc.ca/business/about_his.shtml"> Victoria</a> itself, one of the oldest
+                cities in Canada, is considered to be one of the Canadian gems.
+                To reduce the costs, the workshop and the joint conferences will be held on the campus of the University of Victoria.&nbsp;<br>
+  <br>
+  Check out <b><a href="http://www.cs.ubc.ca/~ksbooth/ai-gi-crv/local.html">Local
+  info: Accommodation &amp; Travel</a>  </b>website for maps and attractions.
+  </p>
+ 
+</td>
+      </table>
+ 
+    </TD></TR></TBODY></TABLE>
+<CENTER>
+
+
+  <P align=center><font size="1">Last updated: <i>21.VI.2005.</i></font></P></BODY></HTML>

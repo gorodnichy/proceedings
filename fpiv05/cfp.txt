@@ -1,0 +1,130 @@
+Invitation to FPiV'05
+
+Dear Rama, 
+
+I was my nice seeing you at CVPR'04.
+
+Knowing that this might be of interest to you, it is my pleasure to invite you to join the Program Committee for the 
+Second Workshop on  Face Processing in Video (FPiV'05) to be held jointly with AI/GI/CRV'2005, 
+in Victoria, British Columbia, Canada May 9-12, 2005.
+
+This would require from your part to review 3-4 papers which you could do either yourself or with the help of your colleagues.
+
+Please let me know whether you are interested and whether your other commitments allow you to do this.
+
+With deadlines approaching, fast response would be appreciated.
+
+You and your colleagues are also very welcome to submit a paper for this workshop.
+
+The tentative Call for Papers is appended below.
+
+Look forward to hearing from you.
+And best wishes
+Dmitry
+
+
+
+Workshop Organizer and Submission Chair:
+========================================
+
+
+Dr. Dmitry O. Gorodnichy, Project Leader
+Perceptual Vision Project, Computational Video Group 
+Institute for Information Technology, National Research Council of Canada 
+Ottawa, Ontario,  CANADA K1A 0R6 
+Tel. (613) 998-5298,  Fax (613) 952-0215 
+Emails: dmitry@perceptual-vision.com,  dmitry.gorodnichy@nrc-cnrc.gc.ca
+URLs: http://synapse.vit.iit.nrc.ca,  http://iit-iti.nrc-cnrc.gc.ca 
+
+
+
+
+
+Program Chairs: 
+
+
+Dmitry O. Gorodnichy 
+dmitry.gorodnichy@nrc-cnrc.gc.ca
+
+Aleix M. Martinez 
+aleix@ee.eng.ohio-state.edu
+
+
+
+Program Committee: 
+
+Simon Baker 
+RI, CMU, USA
+simonb@cs.cmu.edu
+
+Marian S. Barlett, 
+I. of Neural Computation, UCSB, USA
+marni@salk.edu
+
+Rama Chellappa, 
+UMD, USA
+rama@cfar.umd.edu
+
+Roberto Cipolla
+U. of Cambridge, UK
+cipolla@eng.cam.ac.uk
+
+Ralph Gross, 
+CMU, USA
+rgross@cs.cmu.edu
+
+Laurent Itti, 
+U. of Southern California, USA
+itti@pollux.usc.edu
+
+Anil Jain, 
+Michigan State University
+jain@cse.msu.edu
+
+Ioannis A. Kakadiaris 
+U. of Houston, USA
+ikakadia@central.uh.edu
+
+Stan Z. Li, 
+Microsoft Research, China 
+szli@nlpr.ia.ac.cn
+
+Michael J. Lyons, 
+ATR, Japan
+mlyons@atr.co.jp
+
+Jonathon Phillips
+NIST, USA
+jonathon@nist.gov 
+
+Matthew Turk, 
+UCSB, USA
+mturk@cs.ucsb.edu
+
+Lijun Yin, 
+SUNY at Binghamton, USA
+lijun@cs.binghamton.edu
+
+----
+
+
+
+simonb@cs.cmu.edu
+marni@salk.edu
+rama@cfar.umd.edu
+cipolla@eng.cam.ac.uk
+rgross@cs.cmu.edu
+itti@pollux.usc.edu
+jain@cse.msu.edu
+ikakadia@central.uh.edu
+szli@nlpr.ia.ac.cn
+mlyons@atr.co.jp
+jonathon@nist.gov 
+mturk@cs.ucsb.edu
+lijun@cs.binghamton.edu
+fpiv05@visioninterface.net 
+fpiv05.chair@visioninterface.net
+
+====
+
+Following the rapid development of video-based technologies and the success of the First Workshop on Face Processing in Video (FPiV'04) held in Washington, DC, jointly with CVPR'04, the Second Workshop on  Face Processing in Video (FpiV'05) will be held next year in Victoria, British Columbia, Canada, in conjunction with CRV'2005 - the Canadian Conference on Computer & Robot Vision (formerly Vision Interface), which is the oldest Canadian conference on Computer Vision and Pattern Recognition annually held in Canada.

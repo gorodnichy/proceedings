@@ -1,0 +1,154 @@
+================================================================================
+
+                         Call for Papers
+                         ===============
+                         
+ 
+          Second Workshop on  Face Processing in Video (FPiV'05)
+ 
+                 Victoria, British Columbia, Canada
+                         May 9-12, 2005
+
+                http://www.visioninterface.net/fpiv05 
+ 
+Joint conferences:
+=================
+Canadian conferences on Artificial Intelligence / Graphics Interface / Computer 
+& Robot Vision (AI/GI/CRV'05).
+ 
+
+Important dates:
+================ 
+January 21, 2005 - Full Paper Submission  
+February 14, 2005 - Notification to acceptance 
+March 7, 2005 - Final camera ready paper (to appear in Proceedings)    
+May 12 or 8 (TBC), 2005 - Workshop is held                       
+
+Layout
+======
+
+Following the rapid development of the video-based technologies and the success 
+of the First Workshop on Face Processing in Video (FPiV'04) which was held in 
+Washington, DC, jointly with CVPR'04, the Second Workshop on Face Processing in 
+Video (FPiV'05) will be held in 2005 in Victoria, British Columbia, Canada. This 
+time it will be held under the umbrella of CRV'2005 - the Canadian Conference on 
+Computer & Robot Vision (formerly Vision Interface), which is the oldest 
+international conference on Computer Vision and Pattern Recognition annually 
+held in Canada.  
+
+As many of its predecessors, CRV'05 will be held jointly with AI'05 and GI'05: 
+(Canadian conferences on Artificial Intelligence / Graphics Interface).  
+The FPiV'05 workshop attendees will have therefore opportunity to attend all 
+three conferences. 
+
+Aims:
+=====
+The goal of the workshop is to provide a forum for scientists from different 
+backgrounds: biological vision, computer vision, pattern recognition, machine 
+learning, computer-human interaction - to share their experiences and discuss 
+the problems in the area of Face Processing in Video, and, as a result, to 
+produce a collection of high-quality papers addressing these problems.
+
+NB: As in the past, the focus of the workshop is dealing with video data, 
+i.e. with data coming from video footage, rather than data coming from 
+photo-cameras or laser scanners.
+
+Topics:
+=======
+The suggested research areas are listed below (from theory-driven to 
+application-driven one). Other topics dealing with the face in video scenario 
+are also welcome.
+
+?	neurobiological and neuro-computational approaches to visual perception 
+and recognition
+?	synergy between biological and computer vision
+?	face segmentation and detection in video
+?	face tracking and multiple faces tracking
+?	face memorization, classification recognition from video
+?	facial biometrics and face modeling, 3d face models
+?	facial features for tracking and recognition
+?	face representation, canonical face models, face in video databases 
+?	face synthesis, mimicking and animation 
+?	facial expression recognition and classification, and representation
+?	fusing different modalities of video information (motion, colour, 
+intensity)
+?	performance evaluation for face in video problems
+?	face detection/tracking/recognition in multi-camera setups including 
+stereo
+?	face detection/tracking/recognition in panoramic video
+?	combining video and audio for speaker face detection/tracking/recognition
+?	face-based multi-media, games, and computer-human interaction 
+?	perceptual face-controlled interfaces
+?	face processing for video-conferencing
+?	face processing for avatars and computer-generated communication programs
+?	face processing for immersive and collaborative environments
+?	face processing for industry for disabled 
+?	face processing for augmented and virtualized reality
+?	face processing for security and surveillance 
+?	face processing for encoding and annotating video 
+
+Workshop proceedings: 
+=====================  
+The papers accepted for the workshop will be published by IEEE as part of the 
+CRV'05 Proceedings and will be archived into the IEEE digital libraries.  
+
+
+Submission and reviewing procedure:  
+===================================
+Papers should be full-size and complete, eight double-column pages maximum. They 
+should not include any information that would indicate the author's identity 
+(references to authors' previous work should be left blank).  
+
+Papers should be formatted using the IEEE paper submission guidelines described 
+in the Author Instructions page and submitted by email as PDF file (1.5Mb 
+maximum) to the Program Chair (mailto:fpiv05ATvisioninterface.net, replace "AT" 
+with "@"). 
+
+Reviewing will be blind. Each paper will be reviewed by at least three Program 
+Committee members. The goal is to have as vigorous and fair reviewing of all 
+papers as possible.
+
+
+Program Chairs: 
+==============
+Dmitry O. Gorodnichy, IIT-ITI, NRC-CNRC, Canada
+Email: fpiv05ATvisioninterface.net (replace "AT" with "@")
+
+Aleix M. Martinez, Ohio State U., USA
+Email: fpiv05.chairATvisioninterface.net (replace "AT" with "@")
+
+
+Confirmed Program Committee members:
+=====================================
+Simon Baker, RI, CMU, USA
+Marian S. Barlett, I. for Neural Computation, UCSB, USA
+Rama Chellappa, UMD, USA
+Roberto Cipolla, U. of Cambridge, UK
+Ralf Gross, CMU, USA
+Laurent Itti, U. of Southern California, USA
+Anil Jain, Michigan State U.
+Ioannis A. Kakadiaris, U. of Houston, USA
+Stan Z. Li, National Lab of Pattern Recognition, China 
+Michael J. Lyons, ATR, Japan 
+Jonathon Phillips, NIST, USA
+Matthew Turk, UCSB, USA
+Lijun Yin, SUNY at Binghamton, USA 
+
+
+
+Registration and attendance: 
+============================
+- Participation in the FPiV'05 workshop without submitting a paper is welcomed. 
+- For a single registration fee, the workshop participants will also be able to 
+attend the joint conferences.
+- Conversely, the FPiV'05 Workshop is open to all AI/GI/CRV'05 attendees.
+
+
+Venue:
+======
+Vancouver island, where the city of Victoria is situated, is one of the most 
+spectacular places in Canada, while Victoria, one of the oldest cities in 
+Canada, is considered to be one of the Canadian gems. The workshop and joint 
+conferences will be held on campus of the University of Victoria. 
+
+================================================================================
