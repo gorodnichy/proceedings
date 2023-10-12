@@ -1,0 +1,220 @@
+<HTML>
+<HEAD>
+
+<TITLE>VP4S-06: Author information</TITLE>
+<!-- link rel="stylesheet" href="http://www.cv.iit.nrc.ca/pics/default.css"-->
+<meta http-equiv="Content-Language" content="en-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+<!-
+a:active { font-weight: bold; text-decoration: underline }
+A:visited { font-weight: bold; color:#993300; text-decoration: none;}
+A:link { font-weight: bold; color:#12522E; text-decoration: none;}
+A:hover { color:#12522E; text-decoration: underline;background-color:#cccccc;}
+A:border { border: 1px solid black; }
+P		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+UL		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+OL		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TD		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+DIV		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+PRE		{font-family: Times New Roman Cyr, Times New Roman; font-size: 9pt;};
+BODY		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+INPUT		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TEXTAREA	{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+->
+</style>
+
+
+</head>
+
+<BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#00ff00>
+<!--BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4-->
+<CENTER>
+
+
+<TABLE cellPadding=0 width=750 bgColor=#FFFF66 noborder border="1">
+  <TBODY>
+  <TR>
+    <TD bgcolor="#FF3300">
+    
+    
+<!---   header ------>    
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0 bgcolor="#008080">
+        <TBODY>
+        <TR>
+          <TD vAlign=middle align=center width=90 bgColor=#FF3300>
+          <a href="http://www.visioninterface.net/fpiv04/preface.html#logo"><img border="0" src="pics/fpiv-logo.gif" 
+alt="Click here to read  
+  about FPiV logo" width="90" height="90"></a> </TD>
+          <TD noWrap align=middle bgColor=#FF3300 height="100">
+            <p align="center"><b>
+            VP4S-06: The First International Workshop on&nbsp;<i><font face="Arial,Helvetica" size="5"><br>
+            </font></i></b><i><font size="6">
+ <b>
+ Video&nbsp;Processing for Security</b></font></i><br>
+June 7-9, Quebec City, Canada
+            <BR><a href="http://www.computer-vision.org/4security">www.computer-vision.org/4security</a></p>
+          </TD>
+          <TD align=middle width=90 bgColor=#FF3300 nowrap>
+            <p align="center"><a href="http://www.cipprs.org"><img border="0" src="pics/cipprs2.gif" width="79" height="78"></a><a href="http://iit-iti.nrc-cnrc.gc.ca/r-d/cv-vi_e.html"><img  src="pics/NRC-CNRC.gif" border="0" width="82" height="16"></a></p>
+ </TD></TR>
+             
+        <!-- TR>
+          <TD bgColor=#ff8888 colSpan=3>
+            <p align="right"><font face="Times New Roman" size="6"><i><b>FPIV
+            2004</b></i>&nbsp;</font></TD></TR-->
+            </TBODY>
+            </TABLE>
+            </TD>
+            </TR>
+       
+ <!-- End of header ----> 
+    
+  <TR>
+    <TD> 
+        <h3 align="center"><br>
+        For Authors:&nbsp;Formatting and Submission instructions</h3>
+        <hr>
+        <blockquote>
+        <h4>
+
+
+<b>
+<a name="posters"></a>
+ Tier II (CIPPRS Archived) submissions. Deadline: April 23, 2006</b></h4>
+          <p><b>Summary:</b>  VP4S-06 workshop provides opportunity for the
+          papers that were not accepted for IEEE publishing, as well as for the
+          submissions other than regular-size papers, to be presented and
+          archived. They will be archived electronically at the CIPPRS web-site,
+          mirrored at the VP4S-06 workshop website.</p>
+        <p><b>What can be submitted: </b>Late full-size papers (which missed
+        Tier I deadline),<b> </b>short papers,&nbsp; posters (with extended ,
+        Demos (with Description), Industrial Project
+          Reports, Student projects, etc.</p>
+          <p align="left"><b>Layout:&nbsp;</b>   All accepted Tier II submission
+          will be presented at the poster/demo session, which will be held
+          concurrently with the poster session of joint conferences (<b><font size="1"><a href="http://www.ift.ulaval.ca/ai06/">AI'06</a>,
+        <a href="http://www.cs.usask.ca/~gutwin/gi/">GI'06</a>, <a href="http://www.cipprs.org/CRV/"> CRV'06</a></font></b>).
+          They
+  will thus have however the same exposure to the attendees of all joint conferences as
+        other workshop papers. They&nbsp; will also be included with the links at the&nbsp;VP4S-06 workshop website.</p>
+        <p><b>Formatting:</b> The formatting, submissions and archival of
+          these materials resembles that of such conferences as CHI, SIGGRAPH,
+          Biometrics. The authors have to choose the size and the format of
+          their submission that suits the best the needs of their presentation,
+          which is usually one of the following:<br>
+          -&nbsp; Extended Abstract (1-2 pages)&nbsp;<br>
+          -&nbsp; Short Paper (2-4 pages),&nbsp;<br>
+          -&nbsp; Regular Paper (4-10 pages)<br>
+        -&nbsp; Reports, surveys, reviews (pages as needed)<br>
+        -&nbsp; Posters (usually Powerpoint slides converted to pdf)</p>
+        <p><font color="#FF0000">All submissions must be converted to PDF to be
+        considered!&nbsp;<br>
+        Supplementing electronic material is welcomed and can be submitted using
+        the </font> <b><a href="http://www.computer-vision.org/4authors/submit/index.php">Submission
+          Upload Page</a></b><font color="#FF0000">.</font></p>
+        <p align="left"><b>How to submit:</b>&nbsp;&nbsp;Follow
+        the step described in <b>1.c</b> and <b>1.d </b>below. Make sure that you
+        receive the confirmation number!
+  </p>
+ 
+  
+        <hr>
+ 
+  
+        <h4>
+
+
+<b>
+<a name="finals"></a>
+ Tier I (</b>IEEE archived) submissions. Final papers due March 24</h4>
+          <p>* The formatting and submission of final papers
+          accepted for publication within CVR proceedings have to follow exactly
+          the instructions provided at the <a href="http://www.cipprs.org/CRV/">CRV
+          website (click here)<br>
+          </a>* The Copyright form and the registration payment have to be
+          received for paper to be published.</p>
+          <p><b>Summary:</b> Formatting of the papers for the VP4S-06 workshop follows closely
+          the formatting used for such conferences as <a href="http://www.cvpr.org/2006/submit.html">CVPR'06</a>,
+          <a href="http://www.cs.usask.ca/~gutwin/gi/formatting.html">GI'06</a>
+          and <font size="1"> <b> <a href="http://www.cipprs.org/CRV/"> CRV'06</a></b></font>,
+          though the workshop's own paper template is provided.</p>
+          <p><b>1.a <u>Requirements:</u></b></p>
+          <p><b>Blind review condition:</b> VP4S-06 reviewing is double blind:
+          authors do not know the names of the reviewers of their papers, and
+          reviewers do not know the names of the authors.&nbsp;</p>
+          <p><b>Dual submission :</b> By submitting this manuscript to VP4S-06,
+          the authors assert that it has not been previously published in
+          substantially similar form, and no paper currently under submission to
+          a conference contains significant overlap with this one.&nbsp;</p>
+          <p><b>Size and language:</b> Papers should be written in English,&nbsp; complete,
+          and have
+      eight double-column pages maximum.&nbsp;&nbsp;</p>
+          <p><b>1.b <u>Formatting:</u></b></p>
+          <p>Papers must be submitted in PDF format. To obtain the PDF format,
+          please use the template files provided in this <a href="http://computer-vision.org/4authors">directory</a>,
+          which contains:</p>
+          <ul>
+            <li>A sample paper: <a href="http://computer-vision.org/4authors/crv-template.pdf"> crv-template.pdf</a></li>
+            <li>Word (.doc) template: <a href="http://computer-vision.org/4authors/crv-template.doc"> crv-template.doc</a></li>
+            <li>LaTeX template: zipped file <a href="http://computer-vision.org/4authors/crv-template.zip"> crv-template.zip</a> containing
+              <a href="http://computer-vision.org/4authors/crv-template.tex"> crv-template.tex</a>
+              and other needed files .<br>
+              <br>
+              If you use the template, instead of PAPER ID (since you don't know
+              it) please use PAPER KEYWORD.&nbsp;<br>
+              <br>
+              <font color="#FF3300">LaTeX users, please try&nbsp; to generate .pdf
+              from your .tex file using <b>pdflatex</b> command!<a href="http://www.cs.usask.ca/~gutwin/gi/pdflatex.htm"><br>
+              This page</a> explains and and will guide you though in using <b>pdflatex</b>.&nbsp;</font></li>
+          </ul>
+          <p><b>1.c <u>Supplementing material</u></b>:&nbsp;</p>
+          <p>It is understood that the results on video processing and
+          recognition cannot be truly evaluated without the support of the
+          related video material. Therefore, the electronic <b><a href="http://www.computer-vision.org/4authors/submit/index.php">Submission
+          Upload Page&nbsp; </a></b>
+                  
+          has been set to allow authors to upload supplementing material. The
+          authors are encouraged to use to the best of their benefit.</p>
+          <p>
+          <b>1.d</b> <b><u>Electronic submission: </u></b></p>
+          <p><b>Submission of papers for the workshop is done in 3-step process</b></p>
+          <p>Step 1: Authors upload their PDF-formatted paper and <u>all
+          supplemental material</u> (as .pdf or .zip, or both) via the <b><a href="http://www.computer-vision.org/4authors/submit/index.php">Submission
+          Upload page</a></b>, following the naming conventions described.</p>
+          <p>Step 2: After your file(s) have been uploaded and you see them
+          listed at the <b><a href="http://www.computer-vision.org/4authors/submit/index.php">Submission
+          Upload page</a>,&nbsp;</b> you must email a short email to the <i><a href="mailto:vp4s.submit@computer-vision.org?SUBJECT=VP4S workshop submission">Submission
+      Chair</a></i>  (at <i><a href="mailto:vp4s.submit@computer-vision.org?SUBJECT=VP4S workshop:">vp4s.submit@computer-vision.org</a>)</i> 
+          with subject <i>&quot;VP4S-06 submission&quot;</i> and&nbsp;the
+          following information included:</p>
+      <blockquote>
+        <p>1) the title of the paper,<br>
+        2) keywords of the paper,&nbsp;<br>
+        3) the names and affiliations of the authors&nbsp;<br>
+        4) the name and email of the contact author<br>
+        5) the name(s) of the file(s) you have uploaded.</p>
+      </blockquote>
+          <p>Step 3: Upon the reception of your email, the confirmation with the
+          submission number will be emailed to you. VERY IMPORTANT: if you don't
+          receive it within&nbsp; 24 hours, it means that (for
+            whatever spam/server related problems) your submission was not
+          received, in which case please contact the Co-Chairs at the numbers
+          listed at the main page.</p>
+          <p><i>If (for whatever reasons) you are unable to upload your files
+          using <a href="http://www.computer-vision.org/4authors/submit/index.php">Submission
+          Upload page</a>, then you still may try to email it directly <a href="mailto:vp4s.submit@computer-vision.org?SUBJECT=VP4S workshop submission">Submission
+      Chair</a> . However, due to email/spam-filter problems, and
+          especially if you paper is larger than 1Mb, there's no guarantee that
+          your email will be received.</i></p>
+ 
+  
+        </blockquote>
+        <p>&nbsp;
+        </center>
+ 
+    </TD></TR></TBODY></TABLE>
+<CENTER>
+
+
+  <P align=center><font size="1">Last updated: <i>21.III.2006.</i></font></P></BODY></HTML>

@@ -1,0 +1,99 @@
+Dear Colleague, 
+
+We've added you to the list of potential reviewers for CRV VideoRec'07 workshop.
+The final reviewers list and acknowledgements will be posted after the reviewing processes is over.
+Thanks for your interest.
+
+VideoRec'07 Organizers and Chairs
+============================================================================================
+
+
+Hello Dmitry,
+ 
+My name is Eric Granger, and I am an assistant professor at École de technologie
+supérieure in Montreal.  ...
+ 
+During the CCECE 2006, I attended your interesting tutorial entitled Face Recognition in Video.
+Your presentation has encouraged me in some ongoing work in this area, with one of 
+my graduate (M.Ing.) students.  To date, our efforts have focused on investigating real-time
+face rec. in unconstrained environments, and in particular:
+- robust pattern classification algorithms for incremental learning  in static and dynamically-evolving environments;
+- simultaneous tracking and classification of input samples, and fusion of their responses to increase the recognition rate;
+- ambiguity and novelty detection.
+Please note that my principal areas of expertise are pattern recognition, statistical machine learning, 
+and neural networks, and that my domains of application include military surveillance  (i.e., radar signal rec.), 
+security in computer networks (i.e., intrusion detection),  and biometric authentification (i.e., face rec. and 
+signature verification).
+...
+Best Regards -- Eric Granger
+cell       (613) 286-6268
+office     (514) 396-8650
+Eric.Granger@etsmtl.ca
+============================================================================================
+Dear Dmitry,
+ 
+Happy New Year!
+ 
+I recieved a CFP for the First International workshop on Video Processing and Recognition. It's a good idea to extend Face  Processing in Video to Video Processing and Recognition. 
+I had served Program Committee for FPiV'04 and FPiV'05. I would be happy to continue to help VideoRec 2007 and subsequent VideoRec's. If you could add me in the PC for VideoRec 2007.
+ 
+Best regards,
+-stan
+
+Stan Z. Li
+Center for Biometrics and Security Research  & 
+    National Laboratory of Pattern  Recognition  
+Room 1227,  Institute of Automation  
+Chinese Academy of Sciences  
+95 Zhongguancun Donglu   
+Beijing 100080, China
+
+http://www.cbsr.ia.ac.cn/users/szli
+
+Email: szli@cbsr.ia.ac.cn, * szli@nlpr.ia.ac.cn *
+Tel:  +86-10-82626787
+Fax: +86-10-62632259 
+============================================================================================
+Dear Sir/Madam,
+
+Thank you for organizing the "Video Processing and Recognition" workshop 
+series.
+
+My name is Mohamed Moustafa. I have been with Identix (An L-1 Identity 
+Solutions Company) for more than 8 years and led many research projects 
+contributing to our products portfolio including face detection, face 
+recognition for embedded devices, and automatic synthesis of new face 
+views from single input image in near real-time.
+
+I would like to express my deep interest in joining your technical 
+program committee.
+
+Best Regards,
+
+--Mohamed
+
+Mohamed Moustafa, Ph.D.
+Sr. Principal Research Scientist
+Identix, An L-1 Identity Solutions Company
+www.L1id.com
+mmoustafa@L1id.com
+
+============================================================================================
+<* Dmitry: - for NN papers *>
+Hello,
+Yes, I am interested in serving on Technical Program Commitees.
+Please feel free to contact me at your convenience.
+Best regards,
+Milos
+----------------------------------------------------------------- 
+Milos Manic, Ph.D., 
+Assist. Prof., Computer Science Dept. 
+CS Program Director at IF, University of Idaho at IF 
+IEEE IES Web and Information Committee
+ICIEA 2007 Track Chair 
+ph.: 208.282.7845 fax: 208.282.7950 
+e-mail: misko@uidaho.edu 
+home: http://www.cs.uidaho.edu/~milosm 
+----------------------------------------------------------------- 
+============================================================================================
+

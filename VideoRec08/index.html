@@ -1,0 +1,970 @@
+<HTML>
+<HEAD>
+
+<TITLE>VP4S-06: First International Workshop on Video Processing for Security</TITLE>
+<!-- link rel="stylesheet" href="http://www.cv.iit.nrc.ca/pics/default.css"-->
+<meta http-equiv="Content-Language" content="en-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+<!-
+a:active { font-weight: bold; text-decoration: underline }
+A:visited { font-weight: bold; color:#993300; text-decoration: none;}
+A:link { font-weight: bold; color:#12522E; text-decoration: none;}
+A:hover { color:#12522E; text-decoration: underline;background-color:#cccccc;}
+A:border { border: 1px solid black; }
+P		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+UL		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+OL		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TD		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+DIV		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+PRE		{font-family: Times New Roman Cyr, Times New Roman; font-size: 9pt;};
+BODY		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+INPUT		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TEXTAREA	{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+->
+</style>
+
+
+</head>
+
+<BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#00eeaa>
+<!--BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4-->
+<CENTER>
+
+
+<TABLE cellPadding=5 width=915 bgColor=#FFFF99 noborder border="1">
+  <TBODY>
+  <TR>
+    <TD colSpan=4 bgcolor="#FF3300" width="897">
+    
+    
+<!---   header ------>    
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0 bgcolor="#008080">
+        <TBODY>
+        <TR>
+          <TD vAlign=middle align=center width=90 bgColor=#FF3300>
+          <a href="http://www.visioninterface.net/fpiv04/preface.html#logo"><img border="0" src="pics/fpiv-logo.gif" 
+alt="Click here to read  
+  about FPiV logo" width="90" height="90"></a> </TD>
+          <TD noWrap align=middle bgColor=#FF3300 height="100">
+            <p align="center"><b>
+            <font size="5"><i>
+ VideoRec 2008&nbsp;<br>
+            </i></font><font size="3">International Workshop on Video Processing and Recognition</font></b><i><br>
+            </i>Windsor, Ontario, 28-30 May 2008
+            <BR><a href="http://www.computer-vision.org/VideoRec08/">www.computer-vision.org/VideoRec08</a> <br>
+            (<a href="http://www.videorecognition.com/workshop">www.videorecognition.com/workshop</a>)</p>
+          </TD>
+          <TD align=middle width=90 bgColor=#FF3300 nowrap>
+            <p align="center"><a href="http://www.cipprs.org"><img border="0" src="pics/cipprs2.gif" width="87" height="88"></a></p>
+ </TD></TR>
+             
+        <!-- TR>
+          <TD bgColor=#ff8888 colSpan=3>
+            <p align="right"><font face="Times New Roman" size="6"><i><b>FPIV
+            2004</b></i>&nbsp;</font></TD></TR-->
+            </TBODY>
+            </TABLE>
+            </TD>
+            </TR>
+ 
+   <TR>
+    <td align=center width="186" bgcolor=#FF3300 height="25" nowrap><a href="index.html"><font size="1">introduction</font></a> </td>
+    <TD noWrap align=center width="186" bgcolor=#FF3300><a href="http://www.computerrobotvision.org/submit.html"><font size="1">submission
+      instructions</font></a> 
+ </TD>   
+    <TD noWrap align=center width="184" bgcolor=#FF3300><a href="http://www.computer-vision.org/VideoRec07/program.html"><font size="1">VideoRec
+      2007</font></a> 
+    </TD>
+<TD noWrap align=center width="299" bgcolor=#FF3300> <font size="1"><a href="http://www.aigicrvis.ca/home/">AI/GI/CRV/IS
+  2008</a></font>
+
+
+
+ </TD>
+      </TR>
+      
+ <!-- End of header ----> 
+      
+  <TR>
+    <TD colSpan=4 width="897"> 
+
+    
+        <p align="center"><!-- News ----> 
+       
+        
+        <table align="center" border="1" width="95%" , bgcolor="#FFFF00">
+          <tr>
+            <td width="100%">
+
+
+
+
+              
+
+
+
+
+
+
+
+          </center>
+ 
+
+
+
+              
+
+
+
+
+
+
+
+            <blockquote>
+              <p align="left"><b><font size="2"><font color="#FF3300"><br>
+              1 March:
+              Due to the logistical changes, VideoRec workshop will not be held
+              as a special track of CRV conference this year. Papers submitted
+              to the workshop follow the same process as that of other CRV
+              submissions, and if accepted will appear in CRV proceedings along
+              with other CRV papers. Poster and demo submissions are still
+              welcomed and should be submitted directly to the </font><font color="#ff0000"><a href="mailto:VideoRec08@computer-vision.org?SUBJECT=VideoRec'08:">Program
+              Chair</a>.</font></font></b></p>
+            </blockquote>
+
+
+
+
+              
+
+
+
+
+
+
+
+            </td>
+          </tr>
+        </table>
+
+
+<CENTER>
+
+
+<!-- End ofNews ----> 
+<hr>
+ 
+    <table width="100%" cellpadding="5" cellspacing="0">
+      <tr>
+        <td vAlign="top" noWrap >
+                  
+  
+          <p align="left"><b><font color="#ff0000" size="1">Important dates:&nbsp;</font></b></p>
+          <table class="MsoNormalTable" border="0" cellspacing="3" cellpadding="0" width="100%" style="mso-cellspacing: 1.5pt">
+            <tr style="mso-yfti-irow:0;mso-yfti-lastrow:yes">
+              <td width="40%" style="padding: .75pt">
+                <p class="MsoNormal" align="left"><font size="1"><i><span lang="EN-CA" style="font-family: Arial; color: red; mso-ansi-language: EN-CA; mso-fareast-language: RU"><b>January
+                28, 2008<br>
+                February 28, 2008<br>
+                <u>
+                March 28, 2008</u><br>
+                April 10, 2008<br>
+                April 15, 2008<br>
+                April 16, 2008<br>
+                <u>
+                April 30</u></b></span></i><span lang="EN-CA" style="font-size:8.0pt;font-family:
+  Arial;color:black;mso-ansi-language:EN-CA;mso-fareast-language:RU"><u><o:p>
+                </u>
+                </span><b><i><span lang="EN-CA" style="font-family: Arial; color: red; mso-ansi-language: EN-CA; mso-fareast-language: RU">,
+                2008</span></i></b><span lang="EN-CA" style="font-size:8.0pt;font-family:
+  Arial;color:black;mso-ansi-language:EN-CA;mso-fareast-language:RU"></o:p>
+                </span></font></p>
+              </td>
+              <td width="60%" style="padding: .75pt">
+                <p class="MsoNormal" align="left"><font size="1"><b><i><span lang="EN-CA" style="font-family: Arial; color: red; mso-ansi-language: EN-CA; mso-fareast-language: RU">Tier 1 submissions<br>
+                Acceptance/rejection<br>
+                <u>
+                Final paper due</u><br>
+                Tier 2 submissions due<br>
+                Tier 2 decisions<br>
+                Early registration<br>
+                <u>Final poster/demo due</u></span></i></b><span lang="EN-CA" style="font-size:
+  8.0pt;font-family:Arial;color:black;mso-ansi-language:EN-CA;mso-fareast-language:
+  RU"><u><o:p>
+                </u>
+                </o:p>
+                </span></font></p>
+              </td>
+            </tr>
+          </table>
+          <b>
+
+
+
+
+              
+
+
+
+
+
+
+
+          <p align="left">
+ 
+  
+          <font color="#ff0000" size="1">
+                  
+  
+          For Attendees:&nbsp;
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+          </p>
+ 
+  
+          <font color="#ff0000">
+                  
+  
+          <ul>
+            <li>
+              <a href="http://www.aigicrvis.ca/registration/"><font size="1">Registration
+              Page</font></a>            
+              <li>
+              <a href="http://www.aigicrvis.ca/windsor/"><font size="1">Local
+              information</font></a>
+          </ul>
+ 
+
+
+
+              
+
+
+
+
+
+
+
+          <p align="left"><font size="1">Authors:&nbsp;&nbsp;</font>
+                  
+  </p>
+ 
+  
+          <ul>
+            <li>
+              <a href="http://www.computerrobotvision.org/submit.html"><font size="1">Tier
+              I submission
+      instructions</font></a></li>
+            <li>
+             <font size="1"><a href="http://www.computer-vision.org/4authors/submit/index.php">Tier
+              II submission upload page</a>&nbsp;</font></li>
+          </ul>
+ 
+  
+          <font size="1">
+ 
+  
+          <p align="left">Experts: <a href="mailto:dg@computer-vision.org?SUBJECT=VideoRec reviewer">interested
+          in joining<br>
+          Program or Reviewing Committee<br>
+          in future workshops ?</a></p>
+          <p align="left">Companies:&nbsp;<a href="mailto:dg@computer-vision.org?SUBJECT=VideoRec  sponsoring:">
+          interested to sponsor<br>
+          an award or future workshops ?&nbsp;</a></p>
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+</b>
+
+
+
+
+              
+
+
+
+
+
+
+
+          <b>
+                  
+  
+          <font color="#ff0000">
+                  
+  
+          <font size="1">
+ 
+  
+          <i>
+ 
+  
+          <hr>
+                  
+        </i>
+ 
+          <p><b><font size="2">
+          Program Chair</font></font><font size="2">s:&nbsp;</font></b>
+          </p>
+                  
+          <font size="1">
+                  
+          <p><a href="http://boufama.uwindsor.ca/">Bubaker Boufama,</a><br>
+          U. of Windsor, Canada<br>
+          Email: <a href="mailto:VideoRec08@computer-vision.org?SUBJECT=VideoRec'08:">VideoRec08
+          @ computer-vision.org</a>
+          </p>
+                  
+  
+          <p><a href="http://iit-iti.nrc-cnrc.gc.ca/personnel/gorodnichy_dmitry_e.html">Dmitry
+          O. Gorodnichy<br>
+          </a>LSSD-CBSA, Canada<br>
+          Email:&nbsp; <a href="mailto:VideoRec08@computer-vision.org?SUBJECT=VideoRec'08:">dg
+          @ videorecognition.com</a>
+          </p>
+                  
+  
+          <p>
+          <b><font size="2">
+          Program Committee</font></font><font size="2">:</font>
+          </b>
+          </p>
+                 
+  
+          <font size="1">
+ 
+  
+          <p><font size="1"><a href="http://www.sce.carleton.ca/faculty/adler/">Andy Adler
+          ,</a><br>
+           Carleton University, Canada </font></p>
+
+  
+          <p><a href="http://www.ecse.rpi.edu/homepages/qji/">Qiang
+          Ji</a>,&nbsp;<br>
+          Rensselaer Polytechnic Inst., USA
+          </p>
+                  
+  
+          <p><font size="1"><a href="http://www.crim.ca/perso/langis.gagnon/">Langis Gagnon</a>&nbsp;<br>
+          CRIM, Canada
+          </p>
+
+
+
+          <p><a href="http://www.ri.cmu.edu/people/gross_ralph.html">
+          Ralph
+          Gross</a>,&nbsp;<br>
+          CMU, USA
+          </p>
+
+
+
+          </font></font>
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+          <p><font size="1" color="#008080">Ioannis A. Kakadiaris</font>
+                  
+  
+          <font color="#ff0000">
+                  
+  
+          <br>
+          U. of Houston, USA
+          </p>
+
+
+
+          <p><font size="1">
+          <a href="http://www.cs.ubc.ca/~little/">Jim Little,
+          </a><br>
+          U. of British Columbia, Canada</font> 
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+          <p><span style="font-size: 9pt"><font size="1" color="#008080">Milos
+          Manic</font><font size="1" color="#FF3300">,</font>
+                  
+  
+          </span><font size="1" color="#FF3300"><br>
+          <span style="font-size: 8pt">U. of Idaho&nbsp;Idaho Falls, USA</span></font>
+                  
+  
+          <font size="1">
+ 
+  
+          <font size="1">
+                 
+  
+          <font size="1">
+                  
+  
+          <font color="#ff0000">
+                  
+  
+          <p><a href="http://www.ece.osu.edu/~aleix/"> Aleix M. Martinez
+          </a>,&nbsp;<br>
+          Ohio State University, USA
+
+          <p><a href="http://externe.emt.inrs.ca/users/mitiche/Bienvenue.html">Amar
+          Mitiche</a>,&nbsp;<br>
+          INRS, Canada
+
+          <p><a href="http://www.isi.edu/~mitra/">Sinjini Mitra</a>,&nbsp;<br>
+          U. of Southern California, USA&nbsp;
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+          <p><font color="#008080">Mohamed Moustafa,&nbsp;</font>
+                  
+  
+          <font color="#ff0000">
+                  
+  
+          <br>
+          L-1 Identity Solutions, USA
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+          </font></font></font>
+
+          <p>
+                 
+  
+          <font size="1" color="#008080">
+ 
+  
+          Ying-Li Tian</font>
+                  
+  
+          <font color="#ff0000">
+                  
+  
+          <font size="1"><br>
+          IBM T. J. Watson Research Center<span style="COLOR: black"><o:p>
+          &nbsp;
+          </span>
+
+          
+          </font>
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+          <p><font size="1" color="#ff0000"><span style="color: black">Richard Wildes&nbsp;<br>
+          York U </span></font>
+                  
+  
+          <font size="1">
+                  
+  
+          <font color="#ff0000">
+                  
+  
+          <span style="COLOR: black">
+          </o:p>
+          </span>
+
+          
+                  
+          <p><font size="1"><a href="http://www.cs.binghamton.edu/~lijun/">Lijun Yin</a>,&nbsp;<br>
+          SUNY at Binghamton, USA</font>
+          </p>
+                  
+                  
+
+          <p><font size="1"><a href="http://www.usherbrooke.ca/informatique/personnel/profs/DZiou.html">Djemel
+          Ziou</a>,&nbsp;<br>
+          U. de Sherbrooke, Canada
+
+
+
+          </font>
+          </p>
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+        </font>
+                  
+                  
+
+          <p>
+                  
+  
+          <font size="1" color="#008080">John S. Zelek&nbsp;</font>
+                  
+  
+          <font color="#ff0000">
+                  
+  
+          <font size="1"><br>
+          U. Waterloo
+          </p>
+
+
+          <hr>
+                  
+
+
+
+              
+
+
+
+
+
+
+
+       <p align="left">
+
+
+
+  
+
+
+
+        <b>Past workshops:<br>
+        <br>
+        </b>
+
+
+
+        <a href="http://www.computer-vision.org/VideoRec07/program.html">VideoRec'07</a>,&nbsp;<a href="http://www.computer-vision.org/4security/">VP4S-06</a>,
+        <a href="http://visioninterface.net/fpiv05/program.html">FPiV'05</a><a href="http://visioninterface.net/fpiv04/papers.html"><br>
+        FPiV'04 (jointly with CVPR'04)</a>
+
+
+
+        </p>
+
+
+
+   
+
+
+
+
+
+
+
+
+        <p align="left"><b>Related Resources:<br>
+        </b><a href="http://www.visioninterface.net">www.visioninterface.net</a>
+        - links to&nbsp;<br>
+        Canadian Computer Vision companies,<br>
+        labs and resources
+
+
+
+        </p>
+
+
+
+
+              
+
+
+
+
+
+
+
+          </center>
+ 
+
+
+
+              
+
+
+
+
+
+
+
+          <p align="left">Other related events:<a href="http://iit-iti.nrc-cnrc.gc.ca/r-d/cv-vi_e.html"><br>
+          </a>
+
+
+
+          </font><font size="1"><a href="http://server.cs.ucf.edu/~vision/workshop/2007/WMVC_2007.html">WMVC'07<br>
+      </a>&nbsp;&nbsp; <a href="http://www.assets2008.com).">ASSET'08</a></font>
+
+
+
+        </p>
+
+
+
+
+              
+
+
+
+
+
+
+
+</font>
+
+
+
+
+              
+
+
+
+
+
+
+
+</b>
+
+
+
+
+              
+
+
+
+
+
+
+
+</td>
+<td vAlign="top">
+  <p><b>The&nbsp; International Workshop on Video Processing and Recognition&nbsp;</b>is&nbsp;an annually organized workshop that is held in conjunction with the Canadian
+              Conference on Computer &amp; Robot Vision which has a focus
+  on&nbsp; analyzing <a href="http://www.visioninterface.net/fpiv04/preface.html">video
+  data</a>. It addresses the problems which are commonly known as Video Analysis and Content Extraction, Video Analytics, Intelligent Video, Automated Video, Perceptual Vision
+  etc.&nbsp;</p>
+  <p><b>Submission and reviewing procedure: two-tier archival system&nbsp;</b> &nbsp;<b>&nbsp;</b>
+  </p>
+  <p>The organization of the workshop follows that of its
+  predecessors: <a href="http://www.visioninterface.net/fpiv04/papers.html">FPiV'04
+  </a>,<a href="http://www.visioninterface.net/fpiv05">&nbsp;FPiV'05</a>
+  and <font size="1"> <b><a href="http://www.computer-vision.org/4security/">VP4S-06</a></b></font>,
+  <a href="http://computer-vision.org/VideoRec07/program.html"><font size="1">VideoRec'07</font></a><font size="1">,
+  with</font> two objectives in mind:<br>
+  &nbsp;&nbsp;&nbsp; i) distinguishing the papers that contribute
+  significantly to the advances in the area,&nbsp;<br>
+  &nbsp;&nbsp;&nbsp; ii) providing the forum for
+  discussing and presenting the results for students, researchers and industries.&nbsp;
+  </p>
+  <p>
+  To achieve both of these goals, the workshop uses a two-tier submission
+  procedure.
+  </p>
+  <p><b>Tier I submissions: submission and reviewing process</b>
+  </p>
+  <p>For the <b>Tier I</b>, the original full-size (not more than 8 pages) papers written&nbsp;
+  analyzing video context for recognition and understanding &nbsp; applications are welcomed for submission.&nbsp; <font face="Verdana">Each
+  </font>Tier I submission <font face="Verdana">will be reviewed by three Program Committee
+        members. <b>Reviewing </b>is double blind (author don't know the
+  reviewers, reviewers don't know the authors). The goal is to have as vigorous and fair reviewing of all
+        papers as possible.&nbsp;<br>
+  <br>
+  The </font>Tier I accepted <font face="Verdana">papers </font> will be
+  presented at the oral session and <b>published by IEEE </b> as part of the CRV Proceedings.
+  A CD version of the Proceedings will be distributed at the CRV conference (archived into the IEEE Computer
+  Society's digital library and the IEEE's XPlore and IEL digital libraries and
+  indexed through the INSPEC indexing service). 
+  
+  </p>
+  <p>For the <b>Tier II</b>, the workshop invites submissions that are not or
+  may not be accepted for IEEE publishing. This includes late full papers,
+  posters, demos, student projects reports,
+            industrial projects presentations submissions etc. There are no
+  restrictions on the size of the Tier II submissions.&nbsp;<font face="Verdana"><br>
+  <br>
+  The </font>Tier II accepted <font face="Verdana">submissions </font>will be
+  presented at the poster session and will be published at the conference
+  web-site archived by the CIPPRS. <font face="Verdana"><br>
+  <br>
+  </font>
+  Invited topics include but are not limited to:
+  </p>
+      
+  <p> <font size="1">- all aspects of surveillance and monitoring<br>
+  - faces in video: tracking, detecting,
+        memorizing and recognizing faces in video<br>
+        - people in video: tracking and backtracking people in video,
+  pedestrians<br>
+        - objects in video: searching and tracking, vehicles<br>
+        - scene and activity in video: detection and annotation<br>
+        - video-based alarm systems and video for crime prevention<br>
+        - making video more intelligent<br>
+        - multiple-person and gang tracking<br>
+        - multi-camera people tracking<br>
+        - video for biometrics, soft- and hard- biometrics from video<br>
+        - face biometrics, modeling, and&nbsp; models<br>
+        - facial expression recognition and classification, and representation<br>
+        - combining video data with other sensor data: range, photo,
+        fingerprints<br>
+        - video over internet, issues related to privacy of video&nbsp;<br>
+        - performance evaluation for face in video problems<br>
+        - video-based benchmarks and databases<br>
+        - processing of video from stereo and panoramic cameras<br>
+        - combining video and audio for person detection/recognition<br>
+        - video-based interfaces and computer-human interaction for security<br>
+        - analyzing multiplexed video, demultiplexing of video<br>
+        - improving quality of video: anti-aliasing and super-resolution <br>
+        - video event detection and recognition <br>
+        - video database mining <br>
+        - rigid and non-rigid 3D motion estimation from video </font></p>
+  <p>For paper formatting and submission instructions visit&nbsp; <a href="http://www.computer-vision.org/VideoRec07/authors.html"><font size="1">submission
+      instructions</font></a> 
+  </p>
+  
+  
+  <p><b>Workshop proceedings.</b> The Tier I selected papers will be published by IEEE as part of the
+  CRV'07 Proceedings electronically (archived into the IEEE Computer
+  Society's digital library and the IEEE's XPlore and IEL digital libraries and
+  indexed through the INSPEC indexing service). - <i><a href="authors.html#posters">See
+  Tier I submissions procedure</a>.</i>
+
+
+
+  </p>
+  <p>The Tier II accepted submissions will be published online at the CIPPRS-sponsored
+  workshop web-site. - <i><a href="authors.html#posters">See Tier II submissions
+  procedure</a>.</i>
+
+
+
+  </p>
+  <p>
+  <b>Workshop Layout.&nbsp;</b> &nbsp;<b>VideoRec
+  </b>workshop will consist of an oral section, where the papers accepted for IEEE
+  publication will be presented, and an poster/demo session, which will be held
+  concurrently with the poster session of joint conferences ,
+  where other Tier II accepted submissions will be presented.&nbsp;
+
+
+
+  </p>
+  
+  
+  
+  <p>
+  <b>Best Student Paper Award.<font size="2">
+  </font></b>We solicit awards from the industry to honour the best student
+  papers.
+
+
+
+  </p>
+  
+  
+  
+  <h4 align="center">
+  <b>
+  Registration</b>
+  </h4>
+  <p align="left"><b>Who can attend:</b>  <a name="register">Participation
+                in the workshop without submitting a paper is welcomed. -&nbsp;</a>
+                For a single registration fee, the workshop participants will
+                also be able to attend the joint conferences. Conversely, the&nbsp;
+      Workshop is open to all <a href="http://www.iro.umontreal.ca/~ai05/">AI</a>/<a href="http://www.cs.ubc.ca/~van/GI2005/GI2005main.htm">GI</a>/<a href="http://www.cipprs.org/CRV/">CRV</a>/IS
+                attendees.<b>&nbsp;&nbsp;&nbsp;</b>Student participation is encouraged by
+      significantly discounted registration fees.&nbsp;</p>
+ 
+      <p align="left"><br>
+      &nbsp;&nbsp;<font size="1">&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ 
+</td>
+      </table>
+ 
+    </TD></TR></TBODY></TABLE>
+
+  <P align=center><font size="1">Last updated: 11.XII.2007.</font></P></BODY></HTML>
