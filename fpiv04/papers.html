@@ -1,0 +1,550 @@
+<HTML>
+<HEAD>
+
+<TITLE>First IEEE Workshop on Face Processing in Video</TITLE>
+<!-- link rel="stylesheet" href="http://www.cv.iit.nrc.ca/pics/default.css"-->
+<meta http-equiv="Content-Language" content="en-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+<!-
+a:active { font-weight: bold; text-decoration: underline }
+A:visited { font-weight: bold; color:#993300; text-decoration: none;}
+A:link { font-weight: bold; color:#12522E; text-decoration: none;}
+A:hover { color:#12522E; text-decoration: underline;}
+A:border { border: 1px solid black; }
+P		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+UL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+OL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+TD		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+DIV		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+PRE		{font-family: Times New Roman Cyr, Times New Roman; font-size: 11pt;};
+BODY		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+INPUT		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TEXTAREA	{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+->
+</style>
+
+
+</head>
+
+<BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4>
+<!--BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4-->
+<CENTER>
+
+
+<TABLE cellPadding=0 width=750 bgColor=#fffff4 noborder border="1">
+  <TBODY>
+  <TR>
+    <TD colSpan=4>
+    
+    
+<!---   header ------>    
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0 bgcolor="#008080">
+        <TBODY>
+        <TR>
+          <TD vAlign=middle align=center width=90 bgColor=#ff8888>
+<a href="preface.html#logo"><img border="0" src="pics/fpiv-logo.gif" 
+alt="Click here to read  
+about the FPIV logo"></a> </TD>
+          <TD noWrap align=middle bgColor=#ff8888 height="100">
+            <p align="center"><b>
+            The First IEEE Workshop on&nbsp;<i><font face="Arial,Helvetica" size="5"><br>
+            </font><font size="6">
+            Face Processing in Video</font></i></b><font face="Arial Black"><font size="6">&nbsp;</font></font><br>
+            June 28, 2004, Washington, D.C., USA <BR><A 
+            href="http://www.visioninterface.net/fpiv04">www.visioninterface.net/fpiv04
+            </A></p>
+          </TD>
+          <TD align=middle width=90 bgColor=#ff8888 nowrap>
+            <p align="center">
+            <img border="0" src="pics/ieee-tr.gif" width="75" height="24">
+            <a href="http://www.cipprs.org">
+            <img border="0" src="pics/cipprs.gif" width="39" height="39">
+            </a>
+            <br><a href="http://iit-iti.nrc-cnrc.gc.ca/r-d/cv-vi_e.html"><img  src="pics/NRC-CNRC.gif" border="0" width="82" height="16"></a></p>
+ </TD></TR>
+             
+        <!-- TR>
+          <TD bgColor=#ff8888 colSpan=3>
+            <p align="right"><font face="Times New Roman" size="6"><i><b>FPIV
+            2004</b></i>&nbsp;</font></TD></TR-->
+            </TBODY>
+            </TABLE>
+            </TD>
+            </TR>
+ 
+   <TR>
+    <td align=center width="25%" bgColor=#ff8888 height="25" nowrap><font size="1"><b><a href="http://www.visioninterface.net/fpiv04/index.html">main
+      page</a></b></font> </td>
+    <TD noWrap align=center width="25%" bgColor=#ff8888><font size="1"><b><a href="preface.html">workshop
+      introduction</a></b></font> 
+ </TD>   
+    <TD noWrap align=center width="25%" bgColor=#ff8888><font size="1"><b><a href="http://www.visioninterface.net/fpiv04/papers.html">workshop
+      proceedings</a> </b></font> 
+    </TD>
+<TD noWrap align=center width="25%" bgColor=#ff8888><a href="http://cvl.umiacs.umd.edu/conferences/cvpr2004/"><font size="1">CVPR
+      2004</font></a> </TD>
+      </TR>
+      
+ <!-- End of header ----> 
+      
+  <TR>
+    <TD colSpan=4>  
+              <p align="center"><b><br>
+      <font size="5"><i>Workshop Proceedings</i>
+              </font></b>
+ 
+              </center>
+ 
+<CENTER>
+
+
+<table border="1" width="100%">
+  <tr>
+    <td width="50%">
+              <ul>
+                <li>
+              <h5 align="left">Workshop BibTex File: <a href="fpiv04.bib.txt">fpiv04.bib</a></h5>
+                </li>
+                <li>
+              <h5 align="left">Regular papers</h5>
+                </li>
+      <p align="left"><b>S1.</b>  <b><a href="#fd"> Face Detection and 2D
+      Tracking</a></b><br>
+      <b>S2.</b>  <b> <a href="#ey"> Detecting Eyes, Eye Blinks and Eye
+      Biometrics</a></b><br>
+      <b>S3.</b>   <b><a href="#ft">Face Tracking in 3D</a></b><br>
+      <b>S4.</b>  <b> <a href="#fm"> Face Modelling and Matching</a>&nbsp;</b>
+      <br>
+      <b>S5.</b>  <b> <a href="#fa"> Facial Expression and Orientation Analysis</a></b><br>
+      <b>S6.</b>  <b><a href="#fr">Facial recognition in and from video</a></b>
+              </ul>
+    </td>
+    <td width="50%" valign="top">
+      <ul>
+        <li>
+          <h5><font size="2"><b><a href="preface.html">Introduction&nbsp; </a>from Program
+          Chair.&nbsp;</b></font></h5>
+        </li>
+        <li><b>Paper statistics:&nbsp;&nbsp;</b></li>
+      </ul>
+      <blockquote>
+        <p>Submitted - 43,&nbsp;&nbsp;<br>
+ Accepted for oral presentation -
+      14,&nbsp; Accepted for poster presentation - 16,<br>
+        <br>
+        Invited for Special Issue of IVC journal - 12<br>
+        To appear in IVC Special Issue - 9.</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+
+              <ul>
+                <li>
+                  <p align="left"><b>Invited paper</b>: <i>&quot;Biological
+                  Models of Vision and Attention for Face Detection in Natural
+                  Scenes. Surprise Approach&quot; (</i><a href="http://ilab.usc.edu/people">Laurent
+                  Itti</a>, U. of Southern California)<br>
+                  <br>
+                  <b>Audio of the talk:&nbsp;</b> in <a href="laurent-talk-28.ra">ReadAudio</a>
+                  (7Mb), in <a href="laurent-talk-16kbps.mp3">mp3</a> 
+                  (7Mb).&nbsp; - Introduction by Maximilian Riesenhuber<br>
+                </li>
+                <li>
+                  <p align="left"><b>Face images summary of papers&nbsp;<i><br>
+                  </i></b>(given to highlight image resolutions, face
+                  representations and facial features used in the papers)</li>
+              </ul>
+              <table>
+                <tbody>
+                  <tr>
+                    <td vAlign="bottom" align="middle" bgcolor="#FFFF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/01.gif" target="ImageWindow"><img alt="faces/01.html" src="faces/01_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      01.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FFFF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/02.gif" target="ImageWindow"><img alt="faces/02.html" src="faces/02_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      02.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FFFF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/03.gif" target="ImageWindow"><img alt="faces/03.html" src="faces/03_t.jpg" border="0" width="100" height="100"><br>
+                      03.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FFFF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/04.gif" target="ImageWindow"><img alt="faces/04.html" src="faces/04_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      04.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FFFF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/05.gif" target="ImageWindow"><img alt="faces/05.html" src="faces/05_t.jpg" border="0" width="100" height="100"><br>
+                      05.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#008080">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/06.gif" target="ImageWindow"><img alt="faces/06.html" src="faces/06_t.jpg" border="0" width="100" height="100"><br>
+                      06.</a></font></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td vAlign="bottom" align="middle" bgcolor="#008080">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/07.gif" target="ImageWindow"><img alt="faces/07.html" src="faces/07_t.jpg" border="0" width="100" height="100"><br>
+                      07.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#008080">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/08.gif" target="ImageWindow"><img alt="faces/08.html" src="faces/08_t.jpg" border="0" width="100" height="100"><br>
+                      08.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FFFF">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/09.gif" target="ImageWindow"><img alt="faces/09.html" src="faces/09_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      09.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FFFF">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/10.gif" target="ImageWindow"><img alt="faces/10.html" src="faces/10_t.jpg" border="0" width="100" height="100"><br>
+                      10.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FFFF">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/11.gif" target="ImageWindow"><img alt="faces/11.html" src="faces/11_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      11.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FFFF">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/12.gif" target="ImageWindow"><img alt="faces/12.html" src="faces/12_t.jpg" border="0" width="100" height="100"><br>
+                      12.</a></font></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FFFF">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/13.gif" target="ImageWindow"><img alt="faces/13.html" src="faces/13_t.jpg" border="0" width="100" height="100"><br>
+                      13.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#000080">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/14.gif" target="ImageWindow"><img alt="faces/14.html" src="faces/14_t.jpg" border="0" width="100" height="100"><br>
+                      14.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#000080">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/15.gif" target="ImageWindow"><img alt="faces/15.html" src="faces/15_t.jpg" border="0" width="100" height="100"><br>
+                      15.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#000080">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/16.gif" target="ImageWindow"><img alt="faces/16.html" src="faces/16_t.jpg" border="0" width="100" height="100"><br>
+                      16.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FF8888">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/17.gif" target="ImageWindow"><img alt="faces/17.html" src="faces/17_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      17.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FF8888">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/18.gif" target="ImageWindow"><img alt="faces/18.html" src="faces/18_t.jpg" border="0" width="100" height="100"><br>
+                      18.</a></font></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td vAlign="bottom" align="middle" bgcolor="#FF8888">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/19.gif" target="ImageWindow"><img alt="faces/19.html" src="faces/19_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      19.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FF8888">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/20.gif" target="ImageWindow"><img alt="faces/20.html" src="faces/20_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      20.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FF8888">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/21.gif" target="ImageWindow"><img alt="faces/21.html" src="faces/21_t.jpg" border="0" width="100" height="100"><br>
+                      21.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#FF8888">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/22.gif" target="ImageWindow"><img alt="faces/22.html" src="faces/22_t.jpg" border="0" width="100" height="100"><br>
+                      22.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/23.gif" target="ImageWindow"><img alt="faces/23.html" src="faces/23_t.jpg" border="0" width="100" height="100"><br>
+                      23.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/24.gif" target="ImageWindow"><img alt="faces/24.html" src="faces/24_t.jpg" border="0" width="100" height="100"><br>
+                      24.</a></font></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/25.gif" target="ImageWindow"><img alt="faces/25.html" src="faces/25_t.jpg" border="0" width="100" height="100"><br>
+                      25.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/26.gif" target="ImageWindow"><img alt="faces/26.html" src="faces/26_t.jpg" border="0" width="100" height="100"><br>
+                      26.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/27.gif" target="ImageWindow"><img alt="faces/27.html" src="faces/27_t.jpg" border="0" width="100" height="100"><br>
+                      <u>
+                      27.</u></a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/28.gif" target="ImageWindow"><img alt="faces/28.html" src="faces/28_t.jpg" border="0" width="100" height="100"><br>
+                      28.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/29.gif" target="ImageWindow"><img alt="faces/29.html" src="faces/29_t.jpg" border="0" width="100" height="100"><br>
+                      29.</a></font></p>
+                    </td>
+                    <td vAlign="bottom" align="middle" bgcolor="#00FF00">
+                      <p align="center"><font face="Verdana" size="-2"><a href="faces/30.gif" target="ImageWindow"><img alt="faces/30.html" src="faces/30_t.jpg" border="0" width="100" height="100"><br>
+                      30.</a></font></p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul>
+                <li>
+              <p align="left">The workshop papers are archived at <a href="http://ieeexplore.ieee.org/search/srchabstract.jsp?tp=&amp;arnumber=1443144&amp;k2dockey=1443144@ieeecnfs&amp;query=%28gorodnichy%3Cand%3Emartinez%29&amp;pos=3">IEEEXplore
+              digital library</a> - &nbsp;Paste the paper title in the box below
+              and press the button to go directly to the paper.&nbsp;<br>
+              For demos and websites submitted by the authors click on <img border="0" src="pics/ico-demo.gif" width="32" height="12">
+              and <img border="0" src="pics/ico-site.gif" width="29" height="12">.
+                </li>
+              </ul>
+    
+    <form action="http://ieeexplore.ieee.org/search/searchresult.jsp" method="get">
+      <table>
+        <tbody>
+          <tr>
+            <td align="center">
+              <p ><input max Length="455" size="85" name="queryText">
+                            
+                            
+                 <input type="submit" value="IEEE Xplore search" name="btnG"></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    
+       
+    
+    
+
+
+
+              </center>
+ 
+<CENTER>
+
+
+    <table width="100%">
+            <tr width=100%>
+        <td noWrap bgColor="#ff8888">
+          <h3 align="center"><a name="fd">Section 1. </a><b>Face Detection</b>
+          and 2D Tracking&nbsp;</h3>
+          </td>
+      </tr>
+    </table>
+    
+      <blockquote>
+    
+              <p align="left">
+              1fd1 <a href="pdf/01fd.pdf">Biologically-Inspired Face Detection: Non-Brute-Force-Search
+              Approach</a>&nbsp;<br>
+              Christian Siagian and Laurent Itti&nbsp;</p>
+    
+              <p align="left">
+              2fd2 <a href="pdf/02fd.pdf">Tracking a Detected Face with Dynamic Programming&nbsp;</a><a href="http://www.medialab.tfe.umu.se/people/yaozr/ProjectFiles/fpivdemo.avi"><img border="0" src="pics/ico-demo.gif" width="32" height="12"></a>&nbsp;<br>
+              <a href="http://www.medialab.tfe.umu.se/people/yaozr">
+              Zhengrong Yao</a> and Haibo Li&nbsp;</p>
+    
+              <p align="left">
+              3fd3 <a href="pdf/03fd.pdf">Detecting Faces from Color Video by Using Paired Wavelet
+              Features&nbsp;</a><br>
+              Szu-Hao Huang and Shang-Hong Lai</p>
+              
+              <p align="left">4fd4 <a href="pdf/04fd.pdf"> Face Tracking by Means of Continuous Detection&nbsp;</a><a href="http://www.iis.fraunhofer.de/bv/biometrie/"><img border="0" src="pics/ico-site.gif" width="29" height="12"></a><br>
+    Bernhard Fröba and&nbsp;  Christian K<font SIZE="2">ü</font>blbeck</p>
+    
+    <p align="left">5fd5&nbsp;<a href="pdf/05fd.pdf">Learning with Cascade for Classification of
+              Non-Convex Manifolds</a>&nbsp;<br>
+              Xiangsheng Huang, Stan Z.Li, Yangsheng Wang&nbsp;</p>
+      </blockquote>
+    <table width="100%">
+            <tr width=100%>
+        <td noWrap bgColor="#ff8888">
+          <h3 align="center"><a name="ey">Section 2.
+          </a><b> Eyes</b></h3>
+        </td>
+      </tr>
+    </table>
+    
+      <blockquote>
+    
+      <p align="left">6ey1  <a href="pdf/06ey.pdf">Eye Center Localization using Adaptive Templates</a><br>
+      <a href="http://bs.hhi.de/~rurain">
+              J&uuml;rgen Rurainsky</a> and Peter Eisert</p>
+      <p align="left">7ey2 <a href="pdf/07ey.pdf">Towards automatic retrieval of blink-based lexicon for persons suffered from brain-stem injury 
+using video cameras</a>  <a href="http://synapse.vit.iit.nrc.ca"> <img border="0" src="pics/ico-site.gif" width="29" height="12">
+      </a>&nbsp;<br>
+      <a href="http://iit-iti.nrc-cnrc.gc.ca/personnel/gorodnichy_dmitry_f.html">
+              Dmitry O. Gorodnichy</a>
+              </p>
+    
+              <p align="left">8ey3 <a href="pdf/08ey.pdf">Using Eye Region Biometrics to Reveal Affective and
+              Cognitive States&nbsp;</a><br>
+              <a href="http://www.nvcc.edu/home/rheishman">
+              Ric Heishman</a>, Zoran Duric and Harry Wechsler&nbsp;</p>
+      </blockquote>
+    <table width="100%">
+            <tr width=100%>
+        <td noWrap bgColor="#ff8888">
+          <h3 align="center"><a name="ft">Section 3</a><b>:&nbsp; Face Tracking</b></h3>
+        </td>
+      </tr>
+    </table>
+    
+      <blockquote>
+    
+    <p align="left">
+              9ft1 <a href="pdf/09ft.pdf">A Particle Filter without Dynamics for Robust 3D Face Tracking&nbsp;</a><a href="http://www.cs.jhu.edu/~lelu/RansacPF.htm"><img border="0" src="pics/ico-demo.gif" width="32" height="12"></a><br>
+              Le Lu, Xiang-tian Dai, Gregory Hager<br>
+              <br>
+              
+              10ft2 <a href="pdf/10ft.pdf">A Real-time Face Tracking and Animation System&nbsp;&nbsp;</a><a href="http://www.cs.binghamton.edu/~lijun/Demo/Avatar_animation/avatar_animation.avi"><img border="0" src="pics/ico-demo.gif" width="32" height="12"></a><a href="http://www.cs.binghamton.edu/~lijun/Demo.html"><img border="0" src="pics/ico-site.gif" width="29" height="12">
+              </a><br>
+              Xiaozhou Wei, Zhiwei Zhu, <a href="http://www.cs.binghamton.edu/~lijun/"> Lijun
+              Yin</a>, Qiang Ji</p>
+              
+    <p align="left">
+              11ft3 <a href="pdf/11ft.pdf">Constructing and Fitting Active Appearance Models With
+              Occlusion&nbsp;</a><a href="http://www.ri.cmu.edu/projects/project_448.html"><img border="0" src="pics/ico-demo.gif" width="32" height="12">
+              </a><br>
+              Ralph Gross, Iain Matthews, and Simon Baker<br>
+              The Robotics Institute,&nbsp;Carnegie Mellon University</p>
+              
+              <p align="left">12ft4 <a href="pdf/12ft.pdf">Real Time 3D Face Pose Tracking From an Uncalibrated Camera&nbsp;</a><br>
+              <a href="http://www.rpi.edu/~zhuz">
+              Zhiwei Zhu</a>, Qiang Ji
+              </p>
+              
+              <p align="left">13ft5 <a href="pdf/13ft.pdf">Is A Magnetic Sensor Capable of Evaluating A Vision-Based
+              Face Tracking System?&nbsp;</a><br>
+              <a href="http://www.medialab.tfe.umu.se/people/yaozr/">
+              Zhengrong Yao</a> and Haibo Li&nbsp;</p>
+      </blockquote>
+    <table width="100%">
+            <tr width=100%>
+        <td noWrap bgColor="#ff8888">
+          <h3 align="center"><a name="fm">Section 4.&nbsp;</a><b>  Face modeling
+          and matching</b></h3>
+        </td>
+      </tr>
+    </table>
+    
+      <blockquote>
+    
+              <p align="left">14fm1 <a href="pdf/14fm.pdf">Delaunay Triangulation based 3D Human Face Modeling from
+              Uncalibrated Images&nbsp;</a><br>
+              <a href="http://ari.cankaya.edu.tr/~reza">
+              Reza Hassanpour</a>, <a href="http://www.ceng.metu.edu.tr/~volkan"> Volkan Atalay</a></p>
+              
+              <p align="left">15fm2 <a href="pdf/15fm.pdf">Direct Image Matching by Dynamic Warping&nbsp;</a><a href="http://www.cubs.buffalo.edu/people.shtml"><img border="0" src="pics/ico-site.gif" width="29" height="12"></a><br>
+              Hansheng Lei&nbsp;</p>
+              
+              <p align="left">16fm3 <a href="pdf/16fm.pdf">Mobile Face Capture for Virtual Face Videos&nbsp;</a><a href="http://www.cse.msu.edu/~stockman/FCHMD/"><img border="0" src="pics/ico-demo.gif" width="32" height="12">
+              </a><br>
+ Chandan K. Reddy,
+              George Stockman, Jannick P. Rolland,
+              Frank A. Biocca</p>
+      </blockquote>
+    <table width="100%">
+            <tr width=100%>
+        <td noWrap bgColor="#ff8888">
+          <h3 align="center"><a name="fa">Section 5. Facial analysis: </a><b>expression
+          and orientation&nbsp;</b>
+          </h3>
+        </td>
+      </tr>
+    </table>
+    
+      <blockquote>
+    
+              <p align="left">17fa1 <a href="pdf/17fa.pdf">From Static to Video: Face Recognition Using a Probabilistic
+              Approach&nbsp;</a><br>
+              Aleix M. Martinez and Yongbin Zhang</p>
+    
+              <p align="left">18fa2 <a href="pdf/18fa.pdf">Using associative memory principles to enhance perceptual
+              ability of vision systems </a><a href="http://synapse.vit.iit.nrc.ca/memory"><img border="0" src="pics/ico-demo.gif" width="32" height="12"></a><a href="http://www.cv.iit.nrc.ca/~dmitry/pinn"><img border="0" src="pics/ico-site.gif" width="29" height="12"></a><br>
+              <a href="http://iit-iti.nrc-cnrc.gc.ca/personnel/gorodnichy_dmitry_f.html">
+              Dmitry O. Gorodnichy</a> and Oleg P. Gorodnichy</p>
+    
+              <p align="left">19fa3 <a href="pdf/19fa.pdf">Dynamics of Facial Expression from Video&nbsp;</a><a href="http://mplab.ucsd.edu"><img border="0" src="pics/ico-site.gif" width="29" height="12"></a><br>
+              Marian Stewart Bartlett, Gwen Littlewort, Ian Fasel, Javier&nbsp;Movellan</p>
+              
+              <p align="left">20fa4 <a href="pdf/20fa.pdf">Manifold Based Analysis of Facial Expression&nbsp;</a> 
+              <a href="http://www.cs.ucsb.edu/~mturk/FPIV."><img border="0" src="pics/ico-demo.gif" width="32" height="12">
+              </a><br>
+              C. Hu, Y. Chang, R. Feris,&nbsp; <a href="www.cs.ucsb.edu/~mturk">M.
+              Turk</a></p>
+              
+              <p align="left">21fa5 <a href="pdf/21fa.pdf">Evaluation of Face Resolution for Expression Analysis&nbsp;</a><br>
+              Yingli Tian</p>
+              
+              <p align="left">22fa6 <a href="pdf/22fa.pdf">Tracking Head Yaw by Interpolation of Template Responses&nbsp;</a><a href="http://www.cc.gatech.edu/~mromero/tracking-head-yaw/"><img border="0" src="pics/ico-demo.gif" width="32" height="12">
+              </a><br>
+              Mario Romero and Aaron Bobick</p>
+      </blockquote>
+    <table width="100%">
+            <tr width=100%>
+        <td noWrap bgColor="#ff8888">
+          <h3 align="center"><a name="fr">Section 6.&nbsp;</a><b> Face recognition
+          in and from video</b></h3>
+        </td>
+      </tr>
+    </table>
+    
+      <blockquote>
+    
+    <p align="left">
+              23fr1 <a href="pdf/23fr.pdf">Exploring Face Space&nbsp;</a><br>
+              Terence Sim and Sheng Zhang</p>
+              
+    <p align="left">24fr2 <a href="pdf/24fr.pdf">Component-based face recognition with 3d morphable models&nbsp;</a><br>
+              Benjamin Weyrauch,&nbsp; Jennifer Huang, Bernd Heisele, Volker Blanz
+    </p>
+              
+    <p align="left">25fr3 <a href="pdf/25fr.pdf">Development of a Face Recognition System on an Image
+              Processing LSI chip&nbsp</a><a href="http://www.toshiba.co.jp/mmlab/index_e.htm"><img border="0" src="pics/ico-site.gif" width="29" height="12"></a><br>
+              Tatsuo Kozakaya and Hiroaki Nakai</p>
+          
+              </center>
+ 
+              <p align="left">26fr4 <a href="pdf/26fr.pdf">Boosting Local Feature Based Classifiers for Face
+              Recognition&nbsp;&nbsp;</a><br>
+              Lei Zhang, Stan Z. Li, Zhi Yi Qu</p>
+    
+              <p align="left">27fr5 <a href="pdf/27fr.pdf">Face Recognition from Image Sets using Robust Kernel
+              Resistor-Average Distance</a><br>
+              Ognjen Arandjelovic and Roberto Cipolla</p>
+              
+<CENTER>
+
+
+              <p align="left">28fr6 <a href="pdf/28fr.pdf">The Symbiotic Relationship of Parts and Monolithic Face
+              Representations in Verification&nbsp;</a><br>
+              Simon Lucey</p>
+              
+              <p align="left">29fr7 <a href="pdf/29fr.pdf">Automatic Databases for Unsupervised Face Recognition&nbsp;</a><br>
+              <a href="http://mikro.e-technik.uni-ulm.de/persons/mou/">
+              Dengpan Mou</a>, Rainer Schweer,&nbsp; Albrecht Rothermel&nbsp;</p>
+              
+              <p align="left">30fr8 <a href="pdf/30fr.pdf">Cross-modality automatic face model training from large
+              video databases&nbsp;</a><br>
+              <a href="http://students.washington.edu/~xdsong">
+              Xiaodan Song</a>, Ching-yung Lin, Ming-Ting Sun</p>
+ 
+      </blockquote>
+ 
+              </center>
+ 
+    </TD></TR></TBODY></TABLE>
+  <P align=center><FONT size=1>Copyright © 2004&nbsp; </FONT></P></BODY></HTML>

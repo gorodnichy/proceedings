@@ -1,0 +1,436 @@
+<HTML>
+<HEAD>
+
+<TITLE>First IEEE Workshop on Face Processing in Video</TITLE>
+<!-- link rel="stylesheet" href="http://www.cv.iit.nrc.ca/pics/default.css"-->
+<meta http-equiv="Content-Language" content="en-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+<!-
+a:active { font-weight: bold; text-decoration: underline }
+A:visited { font-weight: bold; color:#993300; text-decoration: none;}
+A:link { font-weight: bold; color:#12522E; text-decoration: none;}
+A:hover { color:#12522E; text-decoration: underline;}
+A:border { border: 1px solid black; }
+P		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+UL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+OL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+TD		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+DIV		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+PRE		{font-family: Times New Roman Cyr, Times New Roman; font-size: 11pt;};
+BODY		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+INPUT		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TEXTAREA	{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+->
+</style>
+
+
+</head>
+
+<BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4>
+<!--BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4-->
+<CENTER>
+
+
+<TABLE cellPadding=0 width=750 bgColor=#fffff4 noborder border="1">
+  <TBODY>
+  <TR>
+    <TD colSpan=4>
+    
+    
+<!---   header ------>    
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0 bgcolor="#008080">
+        <TBODY>
+        <TR>
+          <TD vAlign=middle align=center width=90 bgColor=#ff8888><img border="0" src="pics/fpiv-logo.gif"> </TD>
+          <TD noWrap align=middle bgColor=#ff8888 height="100">
+            <p align="center"><b>
+            The First IEEE Workshop on&nbsp;<i><font face="Arial,Helvetica" size="5"><br>
+            </font><font size="6">
+            Face Processing in Video</font></i></b><font face="Arial Black"><font size="6">&nbsp;</font></font><br>
+            June 28, 2004, Washington, D.C., USA <BR><A 
+            href="http://www.visioninterface.net/fpiv04">www.visioninterface.net/fpiv04
+            </A></p>
+          </TD>
+          <TD align=middle width=90 bgColor=#ff8888 nowrap>
+            <p align="center">
+            <img border="0" src="pics/ieee-tr.gif" width="75" height="24">
+            <a href="http://www.cipprs.org">
+            <img border="0" src="pics/cipprs.gif" width="39" height="39">
+            </a>
+            <br><a href="http://iit-iti.nrc-cnrc.gc.ca/r-d/cv-vi_e.html"><img  src="pics/NRC-CNRC.gif" border="0" width="82" height="16"></a></p>
+ </TD></TR>
+             
+        <!-- TR>
+          <TD bgColor=#ff8888 colSpan=3>
+            <p align="right"><font face="Times New Roman" size="6"><i><b>FPIV
+            2004</b></i>&nbsp;</font></TD></TR-->
+            </TBODY>
+            </TABLE>
+            </TD>
+            </TR>
+ 
+   <TR>
+    <td align=center width="25%" bgColor=#ff8888 height="25" nowrap><font size="1"><b>main
+      page</b></font> </td>
+    <TD noWrap align=center width="25%" bgColor=#ff8888><font size="1"><b><a href="papers.html">workshop
+      proceedings</a> &nbsp;</b></font> 
+    </TD>
+    <TD noWrap align=center width="25%" bgColor=#ff8888><font size="1"><b><a href="papers.html">workshop program</a></b></font> 
+ </TD>
+    <TD noWrap align=center bgColor=#ff8888><a href="http://cvl.umiacs.umd.edu/conferences/cvpr2004/"><font size="1">CVPR
+      2004</font></a> </TD>
+      </TR>
+      
+ <!-- End of header ----> 
+      
+  <TR>
+    <TD colSpan=4>
+    &nbsp;
+    <table border="0" width="100%" cellspacing="1" cellpadding="7">
+      <tr>
+        <td width="100%">
+          <h2 align="center">Papers overview&nbsp;</h2>
+
+
+
+
+          <p align="center"><font size="2"><b>By Dmitry O. Gorodnichy</b></font></p>
+
+
+
+
+          <p><b><font size="3">Session 1. Face detection and 2D tracking</font></b>
+
+
+<br>
+<br>
+The face processing task which precedes most other face processing tasks is face detection.&nbsp;<br>
+<br>
+          <img border="0" src="faces/01.gif" width="121" height="120" align=right>1.
+The paper by <b> Christian Siagian and Laurent Itti \cite{fpiv04-fd1}</b> presents a
+    biologically- inspired approach to face detection. Knowing that the human eyes, when viewing a scene, scan it from one salient point to another, the paper combines the image saliency detection mechanism, which detect the most
+conspicuous points in the images, of which human eyes, nose and mouth are,  with the holistic gist detection mechanism, which searches for face-looking regions.&nbsp;Gabor filters are used for the first of the task, and Fourier transform followed by
+log-Gabor filters are used for the second one. As such the approach does not require the brute force search while searching for a face.
+The work uses b-w images, the size of the face model 40x50 (the eye size being 12x6) which is the smallest size for which face parts are still recognizable.
+<br>
+<br>
+    <img border="0" src="faces/02.gif" width="120" height="115"  align=right>2.<b> Zhengrong Yao and Haibo
+    Li \cite{fpiv04-fd2}</b>, note that one of the best face detection techniques to date -- that of Viola and Jones \cite{viola-cvpr01},
+which detects a face by using a cascade of pre-trained classifiers trained on binary features obtained from 24x24 face images using
+Haar-like binary wavelets, fails to detect rotated faces. In order to circumvent the problem and to track thus lost faces they propose a method based on Dynamic Programming which uses a set  of
+Haar-like facial features used in face detection and the Viterbi algorithm to match the face between consecutive video frames. The work is motivated by the Model-based Coding application, which is a coding technique aimed for low bit rate video transmission of the face are used for face tracking.</p>
+
+
+
+
+          <p>
+
+
+<img  align=right border="0" src="faces/03.gif" width="78" height="81">3. <b>Shang-Hong
+          Lai \cite{fpiv04-fd3}</b>propose their own technique for real-time detection of face in video, which,  as technique from \cite{viola-cvpr01}, also learns 24x24 faces using&nbsp;the Adaboost training algorithm  and the
+Haar-like wavelet features, however the features are computed using the  colour component of video. Comparison between
+gray-scale and colour -based face detection techniques is provided.
+To predict where the face will be in the next frame, the authors use Kalman filtering.
+    </p>
+
+
+
+
+          <p>
+
+
+<img  border="0" src="faces/04.gif" width="83" height="88"  align=right>4.
+Another paper which offers their own method for rapid face detection is by <b> Bernhard Froba and Christian Kublbeck
+\cite{fpiv04-fd4}</b>. As in \cite{viola-cvpr01}, the cascade of classifiers of increasing complexity is used. The analysis is done however on 22x22 image patches. The binary face features used in the work are obtained by using 3x3 kernels commonly used in detection of edges, corners etc. The thrust of the paper is to show that with the existence of rapid face detectors, the face tracking problem can be replaced by performing face detection in each frame. In order to smooth the jitter in thus obtained face positions, the authors propose to use&nbsp;the Kalman filter.<br>
+<br>
+<img  align=right src="faces/05.gif" width="82" height="42">5. With the increased interest to AdaBoost learning for face detection classifiers, the paper by
+<b> Xiangsheng Huang,  Stan Z. Li and Yangsheng Wang \cite{fpiv04-fd4}</b> offers a proof, supported by artificial and real data, that using this learning algorithm with cascades is advantageous comparing to
+using it without cascades.<br>
+<br>
+    </p>
+
+
+
+
+    <p><b><font size="3">Session 2. Eyes</font></b></p>
+          <p>&nbsp;In analyzing video for the presence of face, detecting the eyes plays a very important role. First, as mentioned in
+          <b> \cite{fpiv04-fd1, fpiv04-ey2, fpiv04-ft4}</b>, because they are of high contrast, they are two of them and because
+    they blink, they have become one of the most salient features in the images, which can be used to face detection from video easier.
+          Their location also makes a perfect reference frame for face memorization and recognition
+          <b>\cite{fpiv04-fa2}</b>.&nbsp;
+    They can also tell a lot about the emotional level of a person.&nbsp;
+    These are the key inspirations of the papers of this section.<br>
+          <img border="0" src="faces/06.gif" width="98" height="98" align=right>
+    <br>
+    <br>
+          6. Assuming that a face is detected by one of the face detection techniques, <b> J. Rurainsky and P. Eisert
+          \cite{fpiv04-ey1}</b> describe a fast and robust approach for detection  eye pupil locations using a&nbsp;deformable pupil template controlled only by four parameters. The work is performed by using high-resolution colour images from FERET and CIF face image databases.<br>
+          <br>
+     <br>
+          <img align=right border="0" src="faces/07.gif" width="59" height="68">7.
+          The paper of <b> Dmitry O. Gorodnichy \cite{fpiv04-ey2} </b> describes techniques for detecting eye blinking from motion component of video. The work is done on low resolution video frames and is aimed at providing a vision-based solution to hands-free blink-based communication with a computer.<br>
+          <br>
+          <br>
+          <img border="0" src="faces/08.gif" width="95" height="77" align=right>8.
+          If the high-resolution still snapshot from video are available, <b> Ric Heishman, Zoran Duric and Harry Wechsler \cite{fpiv04-ey3}
+          </b> show that by analyzing the eye lids positions, the results can be obtained on the level of fatigue and engagement of the user, which can be very useful in context of different Human Computer Interface
+          (HCI) scenarios.<br>
+    <br>
+          </p>
+          <p>
+    <b><font size="3">Session 3. 3D Face Tracking</font></b><br>
+    <br>
+    <img border="0" src="faces/09.gif" width="110" align=right height="96">
+    &nbsp;<br>
+    9. In their paper, <b> Le Lu, Xiang-Tian Dai and Gregory Hager \cite{fpiv04-ft1}
+    </b> propose to improve the
+    commonly used in sequential state estimation Particle Filtering technique  by using Random Sampling
+    (RANSAC) technique to reduce the number of particles needed for tracking. This avoids
+    the usage of a dynamics model to propagate particles  and making the tracking more robust.
+    The algorithm is applied to the problem
+    of robustly tracking a face with a 3D model.<br>
+    <br>
+    <br>
+    <img border="0" src="faces/10.gif" width="108" height="81" align=right>10.&nbsp;
+    <b>Xiaozhou Wei, Zhiwei Zhu, Lijun Yin and Qiang Ji \cite{fpiv04-ft2} </b> use real time infra-red
+    (IR) light to detect eye pupils, then Gabor wavelets to identify 22 facial features around eyes and mouth, which are then tracked used using Kalman filter. Thus tracked face is then&nbsp;for real time facial expression generation based on a 3D face avatar.<br>
+    <br>
+    <br>
+    <img align=right border="0" src="faces/11.gif" width="105" height="80">11.&nbsp;
+    <b>Ralph Gross, Iain Matthews, and Simon Baker \cite{fpiv04-ft3} </b> propose a technique for face tracking based on Active Appearance Models
+    (AAM). They show how to apply Principal Component Analysis in case of  missing data to compute the shape and appearance variation and propose
+    a new method called robust normalization algorithm for construction of AAM which makes face tracking robust to occlusion.<br>
+    <br>
+    
+    
+    <img  align=right border="0" src="faces/12.gif" width="107" align=right height="81">12.
+    The paper by <b> Zhiwei Zhu and Qiang Ji \cite{fpiv04-ft4}</b> is another paper which makes use of  active IR illumination to robustly the detection of the eyes. The main contribution of the paper however is in  proposing an approach which allow one to perform simultaneously in real time both 2D face detection and 3D pose estimation. The approach is based on matching the  actual face image and
+    the projected face image, where matching is formulated as an optimization problem with constraints, and Kalman filtering is used to limit possible face poses.<br>
+    <br>
+    <img align=right border="0" src="faces/13.gif" width="103" align=right height="101">13.
+    As more and approaches for tracking faces in video are being developed, the question rises on how to evaluate vision-based face tracking system. With this question in mind,
+    <b> Zhengrong Yao and Haibo Li</b>  show in <b>\cite{fpiv04-ft5}</b>, theoretically and by simulations, that one has
+    to be very careful in selecting the so-called "ground truth", in particular,  when using a magnetic sensor.<br>
+          </p>
+    <p>&nbsp; &nbsp;&nbsp;</p>
+          <p>
+
+
+<br>
+<br>
+<b><font size="3">Session 4. Face Modeling and Matching</font></b><br>
+<br>
+<img align=right border="0" src="faces/14.gif" width="88" height="92">14.&nbsp; In their paper <b>\cite{fpiv04-fm1}, Reza Hassanpour and Volkan Atalay</b> describe an algorithm for generating three dimensional models of human faces from a sequence of uncalibrated<br>
+images. In doing that the authors used physical based massless spring model and Delaunay triangulation
+method. The calibration is achieved automatically based on the manually labeled feature points
+The generated models  are compared with the models obtained using cyberscanners.<br>
+<br>
+<br>
+<img align=right border="0" src="faces/15.gif" width="76" height="77">15.&nbsp;<b>
+Hansheng Lei and Venu Govindaraju \cite{fpiv04-fm2}</b> propose a new and efficient 2-dimensional
+Dynamic Warping algorithm for direct image matching is proposed. To  bring down the complexity of the algorithm
+and to make it faster, the authors impose continuity and monotonicity
+constraints on the images.<br>
+<br>
+<br>
+<img align=right border="0" src="faces/16.gif" width="65" height="64">16. In <b>\cite{fpiv04-fm3}
+George Stockman, Chandan K. Reddy , Jannick P. Rolland,  and Frank A. Biocca</b>   developed a  system which can warp and blend two images using the projected grid patches. This solution is proposed  to modify Helmet Mounted Display
+(HMD) systems.
+          </p>
+
+
+
+
+          <p>
+
+
+<br>
+<b><font size="3">Session 5. Facial Expression and Orientation Analysis</font><br>
+          </b>
+          </p>
+
+
+
+
+          <p>
+
+
+    <img align=right border="0" src="faces/17.gif" width="62" height="70">17.&nbsp; In <b>\cite{fpiv04-fa1}</b>
+    This paper presents a probabilistic
+algorithm that learns from small sets of static images and then recognizes faces from video sequences. The
+proposed algorithm is robust to partial occlusions, different
+orientations and expression changes and does not require
+of precise face localizations. The mixture of Gaussians is used to model the face space,  and to make approach
+robust to self-occlusions,  the face is divided into&nbsp;blocks.
+          </p>
+
+
+
+
+          <p><img  align=right border="0" src="faces/18.gif" width="71" height="64">18. In <b>\cite{fpiv04-fa2}</b>
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf &nbsp;&nbsp;</p>
+          <p>
+<br>
+<img align=right border="0" src="faces/19.gif" width="176" height="77">19.&nbsp;&nbsp;
+In <b>\cite{fpiv04-fa3}&nbsp;</b> adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf &nbsp;&nbsp;<br>
+<br>
+<img align=right border="0" src="faces/20.gif" width="93" height="88">20.&nbsp; In <b>\cite{fpiv04-fa4}
+</b>Tasdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+dfsadfsadfsdf.
+<br>
+          </p>
+
+
+
+
+          <p>
+     <img align=right border="0" src="faces/21.gif" width="83" height="96" >21.
+          &nbsp; In <b>\cite{fpiv04-fa5}&nbsp;</b> fsadfsa dfsadfsdf asdfasd
+          fsadfs adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf
+          asdf asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs
+          adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf
+          asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs
+          adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf
+          asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs
+          adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf
+          asdfsa dfsadfsadfsdf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          qq&nbsp; qqq<br>
+     <br>
+          <br>
+          <img align=right border="0" src="faces/22.gif" width="143" height="68">22.&nbsp;
+          In <b>\cite{fpiv04-fa6}</b>
+asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+          dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf
+          asdfasdfsa dfsadfsadfsdfasdfas fsadfs<br>
+<br>
+<br>
+<b><font size="3">Session 6. Facial recognition in and from video</font></b>
+    </p>
+          <p><img align=right src="faces/23.gif" width="95" height="96">
+          23.&nbsp; In <b>\cite{fpiv04-fr1}</b>asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+    dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf asdfasd
+    fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas
+    fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf
+    asdfasd fsadfs adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf
+    asdf asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs
+    adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+    dfsadfsadfsdf&nbsp;</p>
+    <p> 
+    24.&nbsp; In <b>\cite{fpiv04-fr2} </b><img align=right border="0" src="faces/28.gif" width="53" height="88">asdfasd
+    fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas
+    fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf
+    asdfasd fsadfs adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf
+    asdf asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs
+    adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+    dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+    dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf&nbsp;</p>
+    <p> 
+        <img align=right border="0" src="faces/27.gif" width="75" height="73">25.&nbsp;
+        In <b>\cite{fpiv04-fr3} </b>asdfasd
+    fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas
+    fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf
+    asdfasd fsadfs adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf
+    asdf asdfsa dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs
+    adfsadfsdf asdfasdfsa dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa
+    dfsadfsadfsdf asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+    dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf&nbsp;</p>
+          <p><img align=right border="0" src="faces/26.gif" width="79" height="86">26.&nbsp;
+          In <b>\cite{fpiv04-fr4}</b>&nbsp; asdfasd
+          fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</p>
+          <p><img align=right border="0" src="faces/25.gif" width="153" height="113">26.&nbsp;
+          In <b>\cite{fpiv04-fr5}</b>&nbsp;sdfasd
+          fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          qq&nbsp;
+    qqq&nbsp;
+          &nbsp;&nbsp; &nbsp;</p>
+          <p>
+     <img align=right border="0" src="faces/24.gif" width="92" height="95">26.&nbsp;
+     In <b>\cite{fpiv04-fr6}</b> dfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          qq&nbsp;
+    qqq</p>
+          <p><img align=right border="0" src="faces/29.gif" width="89" height="108">26.&nbsp;
+          In <b>\cite{fpiv04-fr7}</b> &nbsp;
+          asdfasd
+          fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+          &nbsp;
+          qq&nbsp;
+    qqq&nbsp;
+          &nbsp;&nbsp; &nbsp;</p>
+          <p><img align=right border="0" src="faces/30.gif" width="96" height="95">26.&nbsp;
+          In <b>\cite{fpiv04-fr8}</b>&nbsp; asdfasd
+          fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf
+          asdfasd fsadfsa dfsadfsdf asdfasd fsadfs adfsadfsdf asdfasdfsa
+          dfsadfsadfsdfasdfas fsadfs adfsadfsdf asdf asdfsa dfsadfsadfsdf &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          qq&nbsp;
+    qqq&nbsp;
+          &nbsp;&nbsp; &nbsp;</p>
+          <p align="center">&nbsp;</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p>&nbsp;
+                 
+      </center>
+ 
+    </TD></TR></TBODY></TABLE>
+  <P align=center><FONT size=1>Misé à jour: <i>30 Avril 2004. </i>Copyright ©
+  2004&nbsp; </FONT></P></BODY></HTML>

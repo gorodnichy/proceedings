@@ -1,0 +1,207 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@STRING{FPIV-04 = "Proc. of CVPR Workshop on Face Processing in Video  (FPIV'04),
+                   Washington DC, 2004" }
+@STRING{FPIV-04-short = "FPIV'04 Workshop Proceedings, 2004" }
+@STRING{FPIV-04-long = "CD-ROM Proc. of the First IEEE CVPR Workshop on Face Processing in Video,
+                   Washington DC, June 28, 2004" }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{fpiv04-web,
+  title = "The First IEEE CVPR Workshop on Face Processing in Video (FPIV'04), Washington DC, June 28, 2004",
+  booktitle  = "http://www.visioninterface.net/fpiv04"
+  }
+ 
+@inproceedings{fpiv04-00,
+  title = "Introduction for the First IEEE CVPR Workshop on Face Processing in Video ",
+  author = "Dmitry Gorodnichy",
+  booktitle  = FPIV-04}
+ 
+
+@inproceedings{fpiv04-in,
+  title = "Biological Models of Vision and Attention for Face Detection in Natural Scenes",
+  author = "Laurent Itti",
+  booktitle  = FPIV-04}
+ 
+  
+@inproceedings{fpiv04-fd1,
+  title = "Biologically-Inspired Face Detection: Non-Brute-Force-Search Approach ",
+  author = "
+Christian Siagian and Laurent Itti",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fd2,
+  title = "Tracking a Detected Face with Dynamic Programming",
+  author = " 
+Zhengrong Yao and Haibo Li ",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fd3,
+  title = "Detecting Faces from Color Video by Using Paired Wavelet Features",
+  author = " 
+Szu-Hao Huang and Shang-Hong Lai",
+  booktitle  = FPIV-04}
+  
+@inproceedings{fpiv04-fd4,
+  title = "Face Tracking by Means of Continuous Detection ",
+  author = "
+Bernhard Froba and Christian Kublbeck",
+  booktitle  = FPIV-04}
+  
+@inproceedings{fpiv04-fd5,
+  title = "Learning with Cascade for Classification of Non-Convex Manifolds ",
+  author = "
+Xiangsheng Huang and Stan Z.Li and Yangsheng Wang",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-ey1,
+  title = "Eye Center Localization using Adaptive Templates",
+  author = "
+Jurgen Rurainsky and Peter Eisert",
+  booktitle  = FPIV-04}
+  
+@inproceedings{fpiv04-ey2,
+  title = "Towards automatic retrieval of blink-based lexicon for persons suffered from brain-stem injury using video cameras ",
+  author = " 
+Dmitry O. Gorodnichy",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-ey3,
+  title = "Using Eye Region Biometrics to Reveal Affective and Cognitive States ",
+  author = "
+Ric Heishman and Zoran Duric and Harry Wechsler ",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-ft1,
+  title = "A Particle Filter without Dynamics for Robust 3D Face Tracking ",
+  author = "
+Le Lu and  Xiang-tian Dai and  Gregory Hager",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-ft2,
+  title = "A Real-time Face Tracking and Animation System  ",
+  author = " 
+Xiaozhou Wei and Zhiwei Zhu and  Lijun Yin and  Qiang Ji",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-ft3,
+  title = "Constructing and Fitting Active Appearance Models With Occlusion  ",
+  author = "
+Ralph Gross and  Iain Matthews and  Simon Baker",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-ft4,
+  title = "Real Time 3D Face Pose Tracking From an Uncalibrated Camera ",
+  author = "
+Zhiwei Zhu and  Qiang Ji",
+  booktitle  = FPIV-04} 
+
+@inproceedings{fpiv04-ft5,
+  title = "Is A Magnetic Sensor Capable of Evaluating A Vision-Based Face Tracking System? ",
+  author = "
+Zhengrong Yao and Haibo Li ",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fm1,
+  title = "Delaunay Triangulation based 3D Human Face Modeling from Uncalibrated Images ",
+  author = "
+Reza Hassanpour and  Volkan Atalay",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fm2,
+  title = "Direct Image Matching by Dynamic Warping ",
+  author = "
+Hansheng Lei ",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fm3,
+  title = "Mobile Face Capture for Virtual Face Videos  ",
+  author = "
+George Stockman and  Chandan K. Reddy  and  Jannick P. Rolland  and Frank A. Biocca",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fa1,
+  title = "From Static to Video: Face Recognition Using a Probabilistic Approach ",
+  author = "
+Aleix M. Martinez and Yongbin Zhang",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fa2,
+  title = "Using associative memory principles to enhance perceptual ability of vision systems ",
+  author = "
+Dmitry O. Gorodnichy and Oleg P. Gorodnichy",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fa3,
+  title = "Dynamics of Facial Expression from Video ",
+  author = "
+Marian Stewart Bartlett and  Gwen Littlewort and  Ian Fasel and  Javier Movellan",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fa4,
+  title = "Manifold Based Analysis of Facial Expression ",
+  author = "  
+C. Hu and  Y. Chang and  R. Feris and  M. Turk",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fa5,
+  title = "Evaluation of Face Resolution for Expression Analysis ",
+  author = "
+Yingli Tian",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fa6,
+  title = "Tracking Head Yaw by Interpolation of Template Responses  ",
+  author = "
+Mario Romero and Aaron Bobick",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fr1,
+  title = "Exploring Face Space",
+  author = "
+Terence Sim and Sheng Zhang",
+  booktitle  = FPIV-04}
+
+ @inproceedings{fpiv04-fr2,
+  title = "Component-based face recognition with 3d morphable models ",
+  author = "
+Benjamin Weyrauch and   Jennifer Huang  and  Bernd Heisele and  Volker Blanz ",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fr3,
+  title = "Development of a Face Recognition System on an Image Processing LSI chip ",
+  author = "
+Tatsuo Kozakaya and Hiroaki Nakai",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fr4,
+  title = "Boosting Local Feature Based Classifiers for Face Recognition  ",
+  author = "
+LeiZhang and  Stan Z. Li and ZhiYiQu",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fr5,
+  title = "Face Recognition from Image Sets using Robust Kernel Resistor-Average Distance",
+  author = "
+Ognjen Arandjelovic and Roberto Cipolla",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fr6,
+  title = "The Symbiotic Relationship of Parts and Monolithic Face Representations in Verification ",
+  author = "
+Simon Lucey",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fr7,
+  title = "Automatic Databases for Unsupervised Face Recognition ",
+  author = "
+Dengpan Mou  and  Rainer Schweer  and   Albrecht Rothermel",
+  booktitle  = FPIV-04}
+
+@inproceedings{fpiv04-fr8,
+  title = "Cross-modality automatic face model training from large video databases ",
+  author = "
+Xiaodan Song and  Ching-yung Lin and  Ming-Ting Sun",
+  booktitle  = FPIV-04}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

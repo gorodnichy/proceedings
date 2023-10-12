@@ -1,0 +1,1475 @@
+<html>
+
+
+
+
+
+
+
+<head>
+
+
+
+<title>Face Processing in Video (FPIV'04)</title>
+
+
+
+
+
+
+
+<style>
+
+
+
+<!-
+
+
+
+a:active { font-weight: bold; text-decoration: underline }
+
+
+
+A:visited { font-weight: bold; color:#993300; text-decoration: none;}
+
+
+
+A:link { font-weight: bold; color:#12522E; text-decoration: none;}
+
+
+
+A:hover { color:#12522E; text-decoration: underline;}
+
+
+
+A:border { border: 1px solid black; }
+
+
+
+->
+
+
+
+</style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://www.cv.iit.nrc.ca/pics/default.css">
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<BODY background=qqqeye.gif bgColor=#FFFFFF bgProperties=fixed 
+
+
+
+leftMargin=0 topMargin=0 margin height="0" marginwidth="0">
+
+
+
+<!-- body -->
+
+
+
+
+
+
+
+<div align="center">
+
+
+
+  <table border="0" cellpadding="0" cellspacing="8" width="98%">
+
+
+
+    <tr>
+
+
+
+      <td align="right" valign="top" width="20%" nowrap>
+
+
+
+        <p align="left"><font size="1"><b>Conference web-site:</b><br>
+
+
+
+        <a href="http://www.visioninterface.net/fpiv04/">www.visioninterface.net/fpiv04
+
+
+
+        </a>
+
+
+
+        </font></td>
+
+
+
+      <center>
+
+
+
+      <td width="15"></td>
+
+
+
+      <td valign="bottom" width="80%">
+
+
+
+        <p align="center">In conjunction with<br>
+
+
+
+          IEEE International Conference on Computer Vision and Pattern Recognition&nbsp;<br>
+
+
+
+          (<a href="http://cvl.umiacs.umd.edu/conferences/cvpr2004/">CVPR'04</a>)</p>
+
+        
+
+      </td>
+
+
+
+      </tr>
+
+
+
+      <tr>
+
+
+
+        <td valign="top" width="20%" nowrap>
+
+
+
+        <font size="1">
+
+
+
+        <b>Organizer and Program Chair:&nbsp;</b> 
+
+
+
+         </font>       
+
+
+
+        <P>
+
+
+
+        <a href="http://www.cv.iit.nrc.ca/~dmitry"><font size="1">Dmitry O. Gorodnichy</font></a><font size="1">,&nbsp;<br>
+
+
+
+        NRC-CNRC, Canada<br>
+
+
+
+        <i>Fax: 1
+
+
+
+        (613) 952-0215<br>
+
+
+
+        Tel:&nbsp; 1 (613) 998-5298
+
+
+
+        <br>
+
+
+
+        <b>
+
+
+
+          Email: </b>  
+
+
+
+          <a href="mailto:fpiv04@visioninterface.net?SUBJECT=FPIV'04: (write your subject here)&CC=dmitry.gorodnichy at nrc-cnrc.gc.ca">
+
+
+
+          fpiv04@visioninterface.net</a>
+
+
+
+        </i></font>
+
+
+
+          <p><font size="1"><b><br>
+
+
+
+          Program Committee:<br>
+
+
+
+          </b><br>
+
+
+
+          <a href="http://www.iis.fraunhofer.de/bv/biometrie/index_d.html">
+
+
+
+          Bernhard Fröba</a>,&nbsp;<br>
+
+
+
+ Fraunhofer-Institut, Germany</font></p>
+
+
+
+          <p>
+
+
+
+          <font size="1"> <!-- 
+
+
+
+          <a href="http://www.site.uottawa.ca/~edubois">
+
+
+
+          Eric Dubois</a>,&nbsp;<br>
+
+
+
+ U. of Ottawa, Canada&nbsp;</font></p>
+
+
+
+          <p>
+
+
+
+          <font size="1"> --><a href="http://ilab.usc.edu/people">Laurent Itti</a>,&nbsp;<br>
+
+
+
+ U. of Southern California, USA</font></p>
+
+
+
+          <p>
+
+
+
+          <font size="1">
+
+
+
+          <a href="http://www.ri.cmu.edu/people/kanade_takeo.html">
+
+
+
+          Takeo Kanade</a>,&nbsp;<br>
+
+
+
+ CMU, USA<br>
+
+
+
+          <br>
+
+
+
+          <a href="http://www.ee.surrey.ac.uk/showstaff?Kittler">
+
+
+
+          Josef Kittler</a>,&nbsp;<br>
+
+
+
+ University of Surrey, UK<br>
+
+
+
+          <br><a href="http://www.cinstrum.unam.mx/Mecatronica/ekm">Ernst Kussul</a>,&nbsp;<br>
+
+
+
+ U. Nacional Autonoma, Mexico<br>
+
+
+
+          <br>
+
+
+
+          <a href="http://research.microsoft.com/~szli">
+
+
+
+          Stan Z. Li</a>,&nbsp;<br>
+
+
+
+ Microsoft Research, China&nbsp;<br>
+
+
+
+          <br>
+
+
+
+          <a href="http://www.mis.atr.co.jp/~mlyons">Michael J. Lyons</a>,&nbsp;<br>
+
+
+
+  ATR, Japan<br>
+
+
+
+          <br>
+
+
+
+          <a href="http://vision.gel.ulaval.ca/en/Projects/IdEns_40/index.php">
+
+
+
+          Marc Parizeau</a>,&nbsp;<br>
+
+
+
+  U. Laval, Canada<br>
+
+
+
+          <br>
+
+
+
+          <a href="http://riesenhuberlab.neuro.georgetown.edu">Maximilian
+
+
+
+          Riesenhuber</a>,&nbsp;<br>
+
+
+
+          Georgetown U., USA<br>
+
+
+
+          <br>
+
+
+
+          <a href="http://www.cv.iit.nrc.ca/~gerhard/">
+
+
+
+          Gerhard Roth</a>,&nbsp;<br>
+
+
+
+ NRC-CNRC, Canada<br>
+
+
+
+          <br>
+
+
+
+<!--           <a href="http://staff.aist.go.jp/k.sakaue">
+
+
+
+          Katsuhiko Sakaue</a>,&nbsp;<br>
+
+
+
+ AIST, Japan&nbsp;<br>
+
+
+
+          <br> --><a href="http://www.kent.ac.uk/physical-sciences/main/staff/cjs.htm">Chris Solomon</a>,&nbsp;<br>
+
+
+
+          U. of Kent at Canterbury, UK<br>
+
+
+
+          <br>
+
+
+
+    <!--       Jean-Christophe Terrillon,&nbsp;<br>
+
+
+
+  Softopia Japan Foundation, Japan<br>
+
+
+
+          <br> --><a href="http://www.cs.ucsb.edu/~mturk/">Matthew Turk</a>,&nbsp;<br>
+
+
+
+  UCSB, USA<br>
+
+
+
+          <br>
+
+
+
+          <a href="http://www.cs.binghamton.edu/~lijun/">
+
+
+
+          Lijun Yin</a>,&nbsp;<br>
+
+
+
+          SUNY at Binghamton, USA</font></p>
+
+
+
+        </center>
+
+
+
+        
+
+
+
+        <p align="left"><font size="1">&nbsp;</font></p>
+
+
+
+        
+
+
+
+        
+
+
+
+        <p align="left"><b><font size="1">Sponsors:</font></b>
+
+
+
+        
+
+
+
+        <p align="center">
+
+
+
+        <font size="1">
+
+
+
+        <br>
+
+
+
+        </font>
+
+
+
+        </p>
+
+
+
+                
+
+
+
+        <p align="center"><a onmouseover="self.status='IEEE Home Page';return true" onmouseout="self.status='';return true" href="http://www.ieee.org/"><img height="36" alt="[IEEE Home Page]" src="ieee-white-new.gif" width="100" border="0"></a>
+
+
+
+        
+
+
+
+        <p align="center">
+
+
+
+        <font size="1">
+
+
+
+        &nbsp;&nbsp;</font><a href="http://www.cipprs.org"><font size="1"><img src="cipprs_logo.gif" border="0" width="159" height="156"></font></a>
+
+
+
+        </p>
+
+
+
+                
+
+
+
+        <p align="center">
+
+
+
+        <font size="1">
+
+
+
+        &nbsp;
+
+
+
+        <a href="http://www.iit.nrc.ca"><img height="28" src="NRC-CNRC.gif" width="139" border="0"></a>
+
+
+
+        </font>
+
+
+
+        </p>
+
+
+
+        
+
+
+
+        <font size="1">
+
+
+
+        
+
+
+
+        <p align="center">
+
+
+
+        &nbsp;
+
+
+
+        </p>
+
+
+
+        
+
+
+
+        <p align="center">
+
+
+
+        
+
+
+
+        </p>
+
+
+
+
+
+
+
+         </font>       
+
+
+
+                
+
+
+
+        <p align="left">
+
+
+
+  
+
+
+
+        <b><font size="1">Related online resources:</font></b>
+
+
+
+        </p>
+
+
+
+  
+
+
+
+        <p align="left"><font size="1"><i>Biologically Motivated Computer Vision</i> <br> Workshop
+
+
+
+        Proceedings:
+
+
+
+        <a href="http://www.informatik.uni-trier.de/~ley/db/conf/bmcv/bmcv2002.html">
+
+
+
+        2002</a>, 
+
+
+
+        <a href="http://www.informatik.uni-trier.de/~ley/db/conf/bmcv/bmcv2000.html">2000</a>
+
+
+
+        </font>
+
+
+
+        </p>       
+
+
+
+  
+
+
+
+        <p align="left"><font size="1"><i>Vision Interface</i><br>
+
+
+
+        Conference Proceedings: <a href="http://www.cipprs.org/vi2002/">2002</a>,
+
+
+
+        <a href="http://www.cipprs.org/vi2001/">2001</a><br>
+
+
+
+        </font>
+
+
+
+        </p>       
+
+
+
+              <!--      
+
+
+
+              
+
+
+
+
+
+
+
+       <p align="left">
+
+
+
+  
+
+
+
+        <b><font size="1">Related upcoming events:</font></b>
+
+
+
+        </p>
+
+
+
+   
+
+
+
+        <p align="left"><font size="1"><a href="http://www.cn.stir.ac.uk/ecovision-ws/">Workshop on Early Cognitive
+
+
+
+        Vision</a><br>
+
+
+
+        UK, May 2004
+
+
+
+        </font>
+
+
+
+        </p>
+
+
+
+        <p align="left"><font size="1"><a href="http://www.comp.polyu.edu.hk/~icba">Int. Conf. on Biometrics Authentication</a><br>
+
+
+
+        Hong Kong, July 2004
+
+
+
+<br>
+
+
+
+        </font>
+
+
+
+         
+
+
+
+        -->  
+
+
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+        </td>
+
+
+
+        
+
+
+
+        <td width="15"></td>
+
+
+
+        <td valign="top" width="80%">
+
+
+
+          <h1 align="center"><font size="3">First IEEE Workshop on</font>&nbsp;<br>
+
+
+
+          Face Processing in Video&nbsp;<br>
+
+
+
+          (FPIV'04)</h1>
+
+
+
+          <p align="center">Washington, D.C.<br>
+
+
+
+          June 28, 2004</p>
+
+
+
+<center>
+
+          <table borderColor="#000000" cellSpacing="2" cellPadding="7" width="89%" bgColor="#FF9999" border="1">
+
+            <tbody>
+
+              <tr>
+
+                <td width="100%" height="19">
+
+                  <p align="center">Following numerous requests: <b><u>Full
+                  paper submission</u> deadline has been extended&nbsp;<br>
+                  till 9 <font SIZE="2">am (Ottawa/NewYork local time)
+                  Wednesday, March</font> 10, 2004!<br>
+                  The abstract however still must be received by March 7, 2004
+                  for the paper to be considered!</b></p>
+
+                </td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+<br>
+          <table borderColor="#000000" cellSpacing="2" cellPadding="7" width="89%" bgColor="#ffff00" border="1">
+
+            <tbody>
+
+              <tr>
+
+                <td width="100%" height="19">
+
+                  <p align="center">Reminder:&nbsp; <u>March
+
+
+
+            7,&nbsp;2004&nbsp; -&nbsp; <i>full papers</i> submission deadline<br>
+
+                  </u>
+
+
+
+            April 4, 2004&nbsp;-&nbsp; <i>revised camera ready accepted papers</i> due.</p>
+
+                </td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          </center>
+
+          <!--------------------- end of news item --------------------->
+
+
+
+          <p align="center"><a href="#aims">Aims and Layout</a> |&nbsp;<a href="#submission">Submission Procedure</a>
+
+          | <a href="#registration">Registration and Attendance</a></p>
+
+
+
+          <p><b>Aims and Layout&nbsp;</b> &nbsp;</p>
+
+
+
+          <p> Face processing is an area of research dedicated to the extraction and
+
+
+
+          manipulation of information about human faces. It deals with such problems as&nbsp;face detection, tracking, recognition, coding, etc. as well as their applications.<br>
+
+
+
+          <br>
+
+
+
+          Video is becoming ubiquitous and very affordable, and there is growing demand on
+
+
+
+          vision-based human-oriented applications, ranging from security and industry for
+
+
+
+          disabled to computer-human interaction and video annotation. Therefore, more and
+
+
+
+          more research effort is being put on face processing in video, which is very
+
+
+
+          different from face processing in still imaginary in terms of the nature of data
+
+
+
+          processed.&nbsp;<br>
+
+
+
+          <br>
+
+
+
+          On one hand, because of real-time, bandwidth and environmental constraints,
+
+
+
+          video images are of rather modest resolution and quality, as compared to&nbsp;photo-images. On the other hand, such a seeming deficiency of video is
+
+
+
+          compensated by the abundance of images due to the dynamic nature of video. Video
+
+
+
+          processing and understanding also has many parallels with biological vision,
+
+
+
+          which provides additional insights and solutions to the problem.<br>
+
+
+
+          <br>
+
+
+
+          Therefore, it is important to develop approaches other than those developed for
+
+
+
+          still imagery which would make use of the advantages of video for face&nbsp;processing. With this goal in mind,
+
+          <u>this workshop is aimed </u> at providing a
+
+
+
+          forum for scientists from different backgrounds: biological vision, computer
+
+
+
+          vision, pattern recognition, machine learning, computer-human
+
+
+
+          interaction, etc. - to share their
+
+
+
+          experiences and discuss the problems, new approaches and applications
+
+          of Face
+
+
+
+          Processing in Video.<br>
+
+
+
+          <br>
+
+
+
+          The workshop will consist of one day of oral presentations and a
+
+
+
+          invited talk.</p>
+
+
+
+          <p><b>Invited talk: </b> <i> "Biological Models of Vision and Attention for Face Detection in Natural Scenes"</i> (by
+
+
+
+          Dr. <a href="http://ilab.usc.edu/people">Laurent Itti</a>,
+
+
+
+ U. of Southern California)&nbsp;
+
+
+
+          </p>
+
+
+
+          <p>            
+
+
+
+          <b>
+
+
+
+          Workshop proceedings </b> (<blink><u>New!</u></blink>).&nbsp; The papers accepted for the workshop will be published in the CVPR'04 CD-ROM Proceedings as well as  
+
+
+
+          archived into the IEEE Computer Society's and the IEEE Xplore 
+
+
+
+digital libraries.&nbsp;
+
+<!-- - The <a href="http://"> IEEE copyright release form</a> will have to be signed.
+
+
+
+          They may also be put on-line at the <a href="http://www.cipprs.org"> CIPPRS</a> web-site according to the <a href="http://www.ieee.org/portal/index.jsp?pageID=corp_level1&amp;path=about/documentation/copyright&amp;file=policies.xml&amp;xsl=generic.xsl">IEEE
+
+
+
+          copyright policy</a> on collected works. -->
+
+
+
+          </p>
+
+
+
+          <p>
+
+
+
+          <b>
+
+
+
+          The suggested research areas</b> are listed below (from theory-driven to
+
+
+
+          application-driven), but other topics dealing with the
+
+
+
+          face in video scenario are welcome.</p>
+
+
+
+          <blockquote>
+
+
+
+            <p>            neurobiological and neuro-computational approaches to visual perception and recognition<br>
+
+
+
+            synergy between biological and computer vision<br>
+
+
+
+            face segmentation and detection in video<br>
+
+
+
+            face tracking and multiple faces tracking<br>
+
+
+
+            face memorization, classification recognition from video<br>
+
+
+
+            face biometrics and face modeling, 3d face models<br>
+
+
+
+            facial features for tracking and recognition<br>
+
+
+
+            face representation, canonical face models, face in video databases&nbsp;<br>
+
+
+
+            face synthesis, mimicking&nbsp;and animation&nbsp;<br>
+
+
+
+            facial expression recognition and classification, and representation<br>
+
+
+
+            fusing different modalities of video information (motion, colour, intensity)<br>
+
+
+
+            performance evaluation for face in video problems<br>
+
+
+
+            face detection/tracking/recognition in multi-camera setups including stereo<br>
+
+
+
+            face detection/tracking/recognition in panoramic video<br>
+
+
+
+            combining video and audio for speaker face detection/tracking/recognition<br>
+
+
+
+            <br>
+
+
+
+            face-based multi-media, games, and computer-human interaction&nbsp;<br>
+
+
+
+            perceptual face-controlled interfaces<br>
+
+
+
+            face processing for video-conferencing<br>
+
+
+
+            face processing for avatars and computer-generated communication programs<br>
+
+
+
+            face processing for immersive and collaborative environments<br>
+
+
+
+            face processing for industry for disabled&nbsp;<br>
+
+
+
+            face processing for augmented and virtualized reality<br>
+
+
+
+            face processing for security and surveillance&nbsp;<br>
+
+
+
+            face processing for encoding and annotating video&nbsp;</p>
+
+
+
+            <p>            &nbsp;</p>
+
+
+
+          </blockquote>
+
+
+
+<a name="submission"></a>
+
+          <p><b>Submission procedure&nbsp;&nbsp;</b>
+
+
+
+          </p>
+
+
+
+          <p><b>Content.</b> Any paper analyzing video for the presence of information about faces
+
+
+
+          is welcomed for submission. However , the preference will be given to those papers which clearly
+
+
+
+          indicate in the abstract a) what is a challenging problem the paper
+
+          addresses and b) what the
+
+
+
+          paper contributions are. Application-oriented papers are as much welcome as
+
+
+
+          theoretical papers.  Given the exploratory nature of the workshop, the submission of papers describing a new face in
+
+          video problem or a system is particularly encouraged.&nbsp;
+
+
+
+          </p>
+
+
+
+          <p>
+
+
+
+          Reviewing will be blind circular and will emphasize the novelty of the
+
+          ideas and clarity of presentation.
+
+
+
+          </p>
+
+
+
+          <p>
+
+
+
+          <b>
+
+
+
+          Important dates </b> (<blink><u>New!</u></blink>)<br>
+
+          NB: Please note that very little&nbsp; time is left for paper
+
+          corrections after their reviewing. </p>
+
+
+
+          <blockquote>
+
+
+
+            <p><u>March
+
+
+
+            7,&nbsp; 2004&nbsp; -&nbsp; <i>full papers</i> submission deadline</u><br>
+
+
+
+ March 8,&nbsp; 2004&nbsp; -&nbsp; papers distributed for review&nbsp; &nbsp;<br>
+
+
+
+            March 22,2004&nbsp; -&nbsp; reviews due
+
+
+
+            <br>
+
+
+
+ March 23,2004&nbsp; -&nbsp; notification to acceptance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+
+
+
+            April 4,&nbsp;&nbsp;&nbsp;&nbsp; 2004&nbsp;-&nbsp; <i>camera ready
+
+
+
+            papers</i> due (to appear in CVPR'04 CD-ROM Proceedings)<br>
+
+
+
+            May&nbsp;1 (<b>fixed!</b>),&nbsp;&nbsp;2004&nbsp; -&nbsp; workshop
+
+
+
+            proceedings submitted to CD vendor.
+
+
+
+            </p>
+
+
+
+          </blockquote>
+
+
+
+          <p><b>Size and formatting. </b>Papers should be <u>full size</u> and
+
+          complete not exceeding six (eight maximum) double-column pages. They
+
+          should not include any information that would indicate the author’s
+
+
+
+          identity (references to authors’ previous work should be left blank)
+
+          and be formatted using the same CVPR&nbsp;paper submission guidelines
+
+          described in <a href="http://cvl.umiacs.umd.edu/conferences/cvpr2004/authorInst.htm">CVPR
+
+
+
+          2004 Author Instructions</a> page.
+
+
+
+          </p>
+
+
+
+          <p><b>How to submit.</b>&nbsp; Submission of papers is done by
+
+
+
+          emailing them as <u>.pdf files</u> of the <a href="mailto:fpiv04@visioninterface.net?SUBJECT=FPIV'04: (write your subject here)&CC=dmitry.gorodnichy at nrc-cnrc.gc.ca">Program
+
+
+
+          chair</a> at the email address given above.
+
+
+
+ In the email accompanying the paper, authors should supply&nbsp;
+
+
+
+          </p>
+
+
+
+          <blockquote>
+
+
+
+            <blockquote>
+
+
+
+          <p>
+
+
+
+          1) the title of the paper<br>
+
+
+
+          2) keywords relating to the paper,&nbsp;<br>
+
+
+
+          3) the names and affiliations of the authors&nbsp;<br>
+
+
+
+          4) (!) areas of expertise of the authors (for circular reviewing), and<br>
+
+
+
+          5) the name of the contact author</p>
+
+
+
+            </blockquote>
+
+
+
+          </blockquote>
+
+
+
+          <p><i><b>NB: </b> Every submitted paper will be assigned a submission number,
+
+
+
+          which will be emailed to the contact author.&nbsp; <u>If you have not received
+
+          </u> your submission number (meaning that your
+
+
+
+          submission have not been received), contact the <a href="mailto:fpiv04@visioninterface.net?SUBJECT=FPIV'04: (write your subject here)&CC=dmitry.gorodnichy at nrc-cnrc.gc.ca">Program
+
+
+
+          chair</a>!
+
+
+
+ </i></p>
+
+
+
+          <p>&nbsp;</p>
+
+<a name="registration"></a>
+
+          <p>
+
+          
+
+          <b>Registration and attendance.</b> &nbsp;</p>
+
+
+
+          <p> Participation in the workshop without submitting a paper is
+
+
+
+            welcomed. Registration fees and deadlines will be posted later (in
+
+
+
+            April)</p>
+
+
+
+        </td>
+
+
+
+      </tr>
+
+
+
+      <tr>
+
+
+
+        <td valign="top" width="20%"><font size="1">Misé à jour: <i>26
+
+          February 2004</i></font></td>
+
+
+
+        <td width="15"></td>
+
+
+
+        <td valign="top" width="80%"></td>
+
+
+
+      </tr>
+
+
+
+    </table>
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
+
+
+

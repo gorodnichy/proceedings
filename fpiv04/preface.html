@@ -1,0 +1,275 @@
+<HTML>
+<HEAD>
+
+<TITLE>First IEEE Workshop on Face Processing in Video</TITLE>
+<!-- link rel="stylesheet" href="http://www.cv.iit.nrc.ca/pics/default.css"-->
+<meta http-equiv="Content-Language" content="en-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+<!-
+a:active { font-weight: bold; text-decoration: underline }
+A:visited { font-weight: bold; color:#993300; text-decoration: none;}
+A:link { font-weight: bold; color:#12522E; text-decoration: none;}
+A:hover { color:#12522E; text-decoration: underline;}
+A:border { border: 1px solid black; }
+P		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+UL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+OL		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+TD		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+DIV		{font-family: Verdana, Arial, Helvetica; font-size: 9pt;};
+PRE		{font-family: Times New Roman Cyr, Times New Roman; font-size: 11pt;};
+BODY		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+INPUT		{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+TEXTAREA	{font-family: Verdana, Arial, Helvetica; font-size: 8pt;};
+->
+</style>
+
+
+</head>
+
+<BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4>
+<!--BODY text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#fffff4-->
+<CENTER>
+
+
+<TABLE cellPadding=0 width=750 bgColor=#fffff4 noborder border="1">
+  <TBODY>
+  <TR>
+    <TD colSpan=4>
+    
+    
+<!---   header ------>    
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0 bgcolor="#008080">
+        <TBODY>
+        <TR>
+          <TD vAlign=middle align=center width=90 bgColor=#ff8888>
+<a href="preface.html#logo"><img border="0" src="pics/fpiv-logo.gif" 
+alt="Click here to read  
+about the FPIV logo"></a> </TD>
+          <TD noWrap align=middle bgColor=#ff8888 height="100">
+            <p align="center"><b>
+            The First IEEE Workshop on&nbsp;<i><font face="Arial,Helvetica" size="5"><br>
+            </font><font size="6">
+            Face Processing in Video</font></i></b><font face="Arial Black"><font size="6">&nbsp;</font></font><br>
+            June 28, 2004, Washington, D.C., USA <BR><A 
+            href="http://www.visioninterface.net/fpiv04">www.visioninterface.net/fpiv04
+            </A></p>
+          </TD>
+          <TD align=middle width=90 bgColor=#ff8888 nowrap>
+            <p align="center">
+            <img border="0" src="pics/ieee-tr.gif" width="75" height="24">
+            <a href="http://www.cipprs.org">
+            <img border="0" src="pics/cipprs.gif" width="39" height="39">
+            </a>
+            <br><a href="http://iit-iti.nrc-cnrc.gc.ca/r-d/cv-vi_e.html"><img  src="pics/NRC-CNRC.gif" border="0" width="82" height="16"></a></p>
+ </TD></TR>
+             
+        <!-- TR>
+          <TD bgColor=#ff8888 colSpan=3>
+            <p align="right"><font face="Times New Roman" size="6"><i><b>FPIV
+            2004</b></i>&nbsp;</font></TD></TR-->
+            </TBODY>
+            </TABLE>
+            </TD>
+            </TR>
+ 
+   <TR>
+    <td align=center width="25%" bgColor=#ff8888 height="25" nowrap><font size="1"><b><a href="index.html">main
+      page</a></b></font> </td>
+    <TD noWrap align=center width="25%" bgColor=#ff8888><a href="faces.html">w</a><a href="faces.html">orkshop
+      faces</a> 
+ </TD>   
+    <TD noWrap align=center width="25%" bgColor=#ff8888><font size="1"><b><a href="papers.html">workshop
+      proceedings</a> </b></font> 
+    </TD>
+<TD noWrap align=center width="25%" bgColor=#ff8888><a href="http://cvl.umiacs.umd.edu/conferences/cvpr2004/"><font size="1">CVPR
+      2004</font></a> </TD>
+      </TR>
+      
+ <!-- End of header ----> 
+      
+  <TR>
+    <TD colSpan=4>      &nbsp;
+    <table border="0" width="100%" cellspacing="1" cellpadding="7">
+      <tr>
+        <td width="100%">
+          <h2 align="center"><strong>Introduction to&nbsp;<br>
+          the First IEEE Workshop on Face Processing in Video</strong><br>
+          <font size="2">(in <a href="http://ieeexplore.ieee.org/iel5/9515/30163/01384854.pdf?tp=&amp;arnumber=1384854&amp;isnumber=30163">pdf</a>)</font></h2>
+    <p>
+
+<b>What makes face processing in video special&nbsp;</b></p>
+    <p>
+
+Since  video-cameras became affordable and computers became powerful enough to process video in real-time, we have started to see a tremendous interest from both academia and industry to the
+vision-based human-oriented applications. These applications include public surveillance, information security, biometrics, computer-human interaction,  multi-media, immersive and collaborative environments, video conferencing, video coding and annotation, computer games, entertainment, to name a few.&nbsp;</p>
+    <p>
+
+A task of prime importance in all of these applications is analyzing video data for the presence of information about human faces. 
+This involves such problems as face detection, face tracking, and, of course, face recognition.
+The problem of recognizing faces from video however should not be considered  as a mere extension of the problem of recognizing faces in photographs, since there are a few principle differences 
+between the two, in terms of both the nature of  processed data and approaches used.&nbsp;</p>
+    <p>
+
+On one hand, because of real-time, bandwidth, and environmental constraints,  video processing has to deal with much lower resolution and image quality, when compared to photograph processing. Even assuming that the lighting conditions are perfect when taking a video snapshot, which is rarely true, the object of interest may be located too far from the camera or at angle which makes recognition very difficult. 
+On the other hand, video images can be easily acquired and they can capture the motion of  a person. This makes it possible to track people until they are in a position convenient for recognition.&nbsp;</p>
+    <p>
+
+Besides that, image-based face recognition traditionally belongs to the field of 
+pattern recognition, and as such is mainly driven by mathematical principles. By contrast,    video-based face recognition can also be approached by using neurobiological principles, the study of which  may hopefully result in making the performance of computer vision systems closer to that of biological vision systems.</p>
+    <p>
+
+
+The described difference between recognizing faces from photographs and recognizing those from video can be easily seen from Figure
+1, which shows a photograph and a snap-shot of a {\em News} video program downloaded from the Internet.
+This figure can also be used  to discover the way biological vision systems (such as that of the reader of this paper) approach a face recognition problem. -- For this purpose, the reader is invited to recognize the faces in the figure.&nbsp;</p>
+
+
+
+
+    <table border="1" width="100%">
+      <tr>
+        <td width="100%">
+          <p align="center">a) <img border="0" src="pics/lennon.gif" width="146" height="148">&nbsp;&nbsp;&nbsp;
+          b) <img border="0" src="pics/putin-mccartney.gif" width="148" height="110"></p>
+          <p align="center"><b>&nbsp;Figure 1. A test for examining the way facial recognition is performed  by biological systems. -&nbsp;<br>
+ Try to recognize the faces in these images.&nbsp;</b><br>
+          <font size="1">(When trying to recognize the faces shown in (a) and (b), we first detect face-looking regions. Then, for the face in photograph (a), we rotate our face (or the page) to align our  eyes with the eyes in the photograph, after which we might be able to recognize John Lennon in his last year of life. 
+This is also a position which we would  use, should we wish to memorize this face. 
+For the image (b), which is a snap-shot of a {\em News} video program downloaded from the Internet, 
+we can easily locate two faces but need to look very closely in order to see  in the two persons Paul McCartney and Vladimir Putin (the video was taken shortly after the concert of the singer on the Red Square in May last year).
+We also note that difference in resolution and the quality between the photograph image (a) and the video image (b).
+          The face orientation is another factor which makes recognition in the video  difficult.)<br>
+          The test is aimed at showing the classification and the hierarchy of face processing tasks as presented at and covered by this
+          workshop.</font></td>
+      </tr>
+    </table>
+    <p>As we try to recognize a face in an image or a scene,  we notice the following division and hierarchy of face processing tasks. First we scan a scene to localize the areas where the face is located, which defines the face segmentation task.
+Then we approach the area of interest and detect the presence of a face  there (the face detection task). Then we follow the face (the tracking task),  until it appears in the position convenient for recognition, which, in the case of faces, is an eye-to-eye position (eye detection and face modeling tasks). Only then do we attempt to assert whether the face is familiar or not. If it is familiar, we recognize it (the recognition task), and if it does not look familiar, we memorize it (the memorization task). These and other face processing tasks are summarized in Figure
+    2.</p>
+
+
+
+
+    <p>
+
+Not claiming that is the exact order in which  humans recognize faces, as, for example, facial expression and orientation can be retrieved without retrieval of the face position,
+this is the order  used to organize the papers presented at the workshop.</p>
+
+
+
+
+    <table border="1" width="100%">
+      <tr>
+        <td width="100%">
+          <p align="center"><b><br>
+          <img border="0" src="pics/fpiv-problems.gif" width="361" height="242"><br>
+          Figure 2. Categorization and hierarchy of tasks performed in  face processing in video.&nbsp;</b></td>
+      </tr>
+    </table>
+
+
+
+
+    <p>
+
+
+<b>Papers</b></p>
+
+
+
+
+    <p>
+
+
+There were thirty papers selected out of 43 submissions for the presentation at the workshop.&nbsp;The
+papers are now retrieved from <a href="http://ieeexplore.ieee.org/search/srchabstract.jsp?tp=&amp;arnumber=1443144&amp;k2dockey=1443144@ieeecnfs&amp;query=%28gorodnichy%3Cand%3Emartinez%29&amp;pos=3">IEEEXplore
+digital library</a>.</p>
+
+
+
+
+    <p>
+
+
+As it might be  difficult to evaluate the video-based approaches presented by the papers by viewing only the video snap-shots shown, many authors have also submitted links to the actual video-demos which can be downloaded from the Internet for viewing. These links as well as the links to the related project's websites are made available at the workshop's website at
+<a href="http://www.visioninterface.net/fpiv04"> http://www.visioninterface.net/fpiv04</a>.&nbsp;
+The bibtex file with the list of all  workshop's papers is also made available at
+<a href="http://www.visioninterface.net/fpiv04/fpiv04.bib">http://www.visioninterface.net/fpiv04/fpiv04.bib</a>.&nbsp;</p>
+
+
+
+
+    <p>
+
+
+A summary of the papers can also be found at&nbsp; workshop's website: <a href="faces.html">here</a>
+and <a href="overview.html">here</a>.</p>
+
+
+
+
+    <p>
+
+<a name="logo"></a>
+<b> 
+
+
+About the workshop logo&nbsp;</b></p>
+
+
+
+
+    <p>
+
+
+The logo designed for the workshop, which appears as an animated image at  the workshop's website, is developed
+by the workshop's chair to  illustrate some peculiarities of processing faces in video, which are the following.
+In video a face is often arbitrarily oriented and captured in low resolution and under poor lighting conditions. It can also be blurred because of motion.
+At the same time, video allows one to capture facial motion, which makes it possible to localize and recognize a face from blinking, for example. The canonical face representation, which is the base face representation used to memorize and recognize faces from video, is often eye-centered and uses only the central part of the face. Commonly it is also chosen  to be of the lowest possible resolution under which the face is still recognizable. In particular, one of the most frequently used canonical face sizes is 24 x 24 pixels, which allows one to describe the natural symmetry of a human face using 16 equal blocks, with eyes being located in the intersection of the upper blocks and mouth located in the intersection of lower blocks.
+Face recognition  on black-and-white images is just as good as recognition on colour images. 
+Besides, many recognition techniques work on the binary features extracted from
+face. The image also shows that the eyes are the most salient features in a human face, capturing immediately the observer's attention, while hair is not. 
+The image  also shows that despite low and binary representation of the face, it is still possible for humans to classify it as being a face of a man or a woman, and that it is a face of the same person, even ... as the age difference between the two images is almost thirty years.&nbsp;</p>
+
+
+
+
+    <p>
+
+
+
+<b>Acknowledgements&nbsp;</b></p>
+
+
+
+
+    <p>
+
+
+
+Finally,  I would like to thank all authors of the submitted papers. With their participation the First IEEE Workshop on Face Processing in Video  becomes a real success and an inspiration for future workshops on this new and exciting area of research.</p>
+
+
+
+
+    <p>
+
+
+&nbsp;</p>
+
+
+
+
+    <p><font size="2"><b> 
+Dmitry O. Gorodnichy, FPIV'04 Program Chair</b></font></p>
+        </td>
+      </tr>
+    </table>
+    <p>&nbsp;
+                 
+      </center>
+ 
+    </TD></TR></TBODY></TABLE>
+  <P align=center><FONT size=1>Copyright ©
+  2004&nbsp; </FONT></P></BODY></HTML>
