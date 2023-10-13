@@ -1,2 +1,1 @@
-# www.videorecognition.com
-www.videorecognition.com - cached (2018)
+# Proceedings of workshops and conferences chaired by Dr. Dmitry Gorodnichy - Archive.
