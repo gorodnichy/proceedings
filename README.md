@@ -1,4 +1,4 @@
-# Proceedings of workshops and conferences chaired by (Dr. Dmitry Gorodnichy)[https://www.gorodnichy.ca/] - Archived
+# Proceedings of workshops and conferences chaired by [Dr. Dmitry Gorodnichy](https://www.gorodnichy.ca) - Archived
 
 
 ## FPiV'04: The First IEEE Workshop on Face Processing in Video - 
@@ -29,13 +29,32 @@ The workshop is held as a Special Session of CRV'05 conference
 
 Chairs: Dmitry O. Gorodnichy and Aleix M. Martinez.
 
-Originally at: www.visioninterface.net/fpiv05
+Originally at: www.visioninterface.net/fpiv05   
 Archived at: <https://gorodnichy.github.io/proceedings/fpiv04/>
 
 Contains:
 - Program: https://gorodnichy.github.io/proceedings/fpiv05/program.html
 
 FPiV'05 papers are published by IEEE Computer Society Press and archived into IEEEXplore digital library as part of the CRV'05 Proceedings.
+
+
+## VP4S-06: The First International Workshop on 
+Video Processing for Security
+June 7-9, Quebec City, Canada
+
+This workshop is held jointly with 
+the Canadian conference on Computer & Robot Vision (CRV'06)
+
+Chairs: Dmitry O. Gorodnichy and Lijun Yin
+
+Originally at: www.computer-vision.org/4security   
+Archived at: <https://gorodnichy.github.io/proceedings/vp4s2006>
+
+Contains: 
+- Introduction from chairs: <https://gorodnichy.github.io/proceedings/vp4s2006/06-vp4s-editorial.pdf>
+- Program, slides, and demos: <https://gorodnichy.github.io/proceedings/vp4s2006/program.html>
+
+
 
 
 ## VideoRec'07: International workshop on Video Processing and Recognition
@@ -45,7 +64,7 @@ This workshop is held as a special session of Canadian Conference on Computer & 
 Jointly Artificial Intelligence (AI'07), Computer Graphics (GI'07) and PRECARN'07 (IS'07) conferences
 
 
-Originally at: www.computer-vision.org/VideoRec07   
+Originally at: www.computer-vision.org/VideoRec07    
 Archived at: <https://gorodnichy.github.io/proceedings/VideoRec07>
 
 Contains:
@@ -53,3 +72,11 @@ Contains:
 - Papers, posters, links
 
 Papers are published by IEEE Computer Society Press as part of the the CRV'07 Proceedings.  
+
+
+##  VT4NS: Video Technology for National Security (2007-2012)
+
+Held annually, organized by the Canada border Services Agency's Science and Engineering Directorate.
+Chaired by: Dmitry Gorodnichy
+
+All VT4NS proceedinsare archived by DRDC 
