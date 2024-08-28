@@ -28,7 +28,7 @@ The workshop is held as a Special Session of CRV'05 conference
 Chairs: Dmitry O. Gorodnichy and Aleix M. Martinez.
 
 Originally at: www.visioninterface.net/fpiv05   
-Archived at: <https://gorodnichy.github.io/proceedings/fpiv04/>
+Archived at: <https://gorodnichy.github.io/proceedings/fpiv05/>
 
 Contains:
 - Program: https://gorodnichy.github.io/proceedings/fpiv05/program.html
@@ -73,6 +73,6 @@ Papers are published by IEEE Computer Society Press as part of the the CRV'07 Pr
 
 This workshop was held annually, organized by the Canada border Services Agency's Science and Engineering Directorate.   
 
-Chaired by: Dmitry Gorodnichy
+Chair: Dmitry Gorodnichy
 
-All VT4NS proceedinsare archived at DRDC Sharepint
+All VT4NS proceedings are archived at DRDC Sharepoint
